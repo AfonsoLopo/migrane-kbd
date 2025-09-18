@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "c8aea2b5-5518-4faf-80a7-69c7b93e7dcc")
 	(paper "A4")
 	(title_block
@@ -9,9 +9,13 @@
 	)
 	(lib_symbols
 		(symbol "Device:D"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -109,10 +113,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -121,10 +125,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+						(xy 1.27 0) (xy -1.27 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -170,11 +174,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Switch:SW_Push_45deg"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -232,6 +241,18 @@
 				)
 			)
 			(symbol "SW_Push_45deg_0_1"
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -1.524 1.524) (xy -1.524 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(circle
 					(center -1.1684 1.1684)
 					(radius 0.508)
@@ -267,10 +288,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -2.54 2.54) (xy -1.524 1.524) (xy -1.524 1.524)
-					)
+				(circle
+					(center 1.143 -1.1938)
+					(radius 0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -283,17 +303,6 @@
 					(pts
 						(xy 1.524 -1.524) (xy 2.54 -2.54) (xy 2.54 -2.54) (xy 2.54 -2.54)
 					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.143 -1.1938)
-					(radius 0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -339,6 +348,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
@@ -1296,7 +1306,6 @@
 	(hierarchical_label "COL4a"
 		(shape input)
 		(at 156.21 43.18 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1308,7 +1317,6 @@
 	(hierarchical_label "ROW1a"
 		(shape output)
 		(at 187.96 80.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1320,7 +1328,6 @@
 	(hierarchical_label "ROW3a"
 		(shape output)
 		(at 187.96 119.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1332,7 +1339,6 @@
 	(hierarchical_label "ROW0a"
 		(shape output)
 		(at 187.96 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1344,7 +1350,6 @@
 	(hierarchical_label "COL1a"
 		(shape input)
 		(at 118.11 43.18 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1356,7 +1361,6 @@
 	(hierarchical_label "COL0a"
 		(shape input)
 		(at 105.41 43.18 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1368,7 +1372,6 @@
 	(hierarchical_label "ROW2a"
 		(shape output)
 		(at 187.96 100.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1380,7 +1383,6 @@
 	(hierarchical_label "ROW6a"
 		(shape output)
 		(at 187.96 157.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1392,7 +1394,6 @@
 	(hierarchical_label "COL2a"
 		(shape input)
 		(at 130.81 43.18 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1404,7 +1405,6 @@
 	(hierarchical_label "COL3a"
 		(shape input)
 		(at 143.51 43.18 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1416,7 +1416,6 @@
 	(hierarchical_label "ROW4a"
 		(shape output)
 		(at 187.96 137.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1428,7 +1427,6 @@
 	(hierarchical_label "COL5a"
 		(shape input)
 		(at 168.91 43.18 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1447,7 +1445,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02889635-17e5-4854-a5cf-23855b88c7e2")
-		(property "Reference" "D3"
+		(property "Reference" "D8"
 			(at 151.13 55.88 90)
 			(effects
 				(font
@@ -1519,7 +1517,7 @@
 		(instances
 			(project "yellow_panda"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/045d001c-aadb-4000-b926-9ec91ee3bce8"
-					(reference "D3")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -1535,7 +1533,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "098dc7c7-c145-4c55-8644-b977e8535b73")
-		(property "Reference" "D31"
+		(property "Reference" "D36"
 			(at 163.83 152.4 90)
 			(effects
 				(font
@@ -1607,7 +1605,7 @@
 		(instances
 			(project "yellow_panda"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/045d001c-aadb-4000-b926-9ec91ee3bce8"
-					(reference "D31")
+					(reference "D36")
 					(unit 1)
 				)
 			)
@@ -1638,7 +1636,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiswitch/hotswaps:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 158.75 127 0)
 			(effects
 				(font
@@ -1690,7 +1688,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d2f7d00-ae12-435a-8be0-0d8a59d7edcf")
-		(property "Reference" "D29"
+		(property "Reference" "D34"
 			(at 176.53 132.08 90)
 			(effects
 				(font
@@ -1762,7 +1760,7 @@
 		(instances
 			(project "yellow_panda"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/045d001c-aadb-4000-b926-9ec91ee3bce8"
-					(reference "D29")
+					(reference "D34")
 					(unit 1)
 				)
 			)
@@ -1778,7 +1776,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ef2762c-0fdc-4d37-b650-91ffdc98403c")
-		(property "Reference" "D22"
+		(property "Reference" "D27"
 			(at 163.83 114.3 90)
 			(effects
 				(font
@@ -1850,7 +1848,7 @@
 		(instances
 			(project "yellow_panda"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/045d001c-aadb-4000-b926-9ec91ee3bce8"
-					(reference "D22")
+					(reference "D27")
 					(unit 1)
 				)
 			)
@@ -1881,7 +1879,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiswitch/hotswaps:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 171.45 50.8 0)
 			(effects
 				(font
@@ -1933,7 +1931,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "149e1799-8997-4d8a-b783-9332c083fe3b")
-		(property "Reference" "D14"
+		(property "Reference" "D19"
 			(at 138.43 95.25 90)
 			(effects
 				(font
@@ -2005,7 +2003,7 @@
 		(instances
 			(project "yellow_panda"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/045d001c-aadb-4000-b926-9ec91ee3bce8"
-					(reference "D14")
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -2036,7 +2034,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiswitch/hotswaps:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 107.95 127 0)
 			(effects
 				(font
@@ -2103,7 +2101,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiswitch/hotswaps:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 120.65 90.17 0)
 			(effects
 				(font
@@ -2155,7 +2153,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27de15f1-38b7-43cf-af31-c6ab47dd30f8")
-		(property "Reference" "D20"
+		(property "Reference" "D25"
 			(at 138.43 114.3 90)
 			(effects
 				(font
@@ -2227,7 +2225,7 @@
 		(instances
 			(project "yellow_panda"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/045d001c-aadb-4000-b926-9ec91ee3bce8"
-					(reference "D20")
+					(reference "D25")
 					(unit 1)
 				)
 			)
@@ -2243,7 +2241,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a94c477-0c31-4ba9-a23c-d648c9ee222f")
-		(property "Reference" "D26"
+		(property "Reference" "D31"
 			(at 138.43 132.08 90)
 			(effects
 				(font
@@ -2315,7 +2313,7 @@
 		(instances
 			(project "yellow_panda"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/045d001c-aadb-4000-b926-9ec91ee3bce8"
-					(reference "D26")
+					(reference "D31")
 					(unit 1)
 				)
 			)
@@ -2331,7 +2329,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "331e9cf3-54f7-4f37-ac30-9399226f3950")
-		(property "Reference" "D17"
+		(property "Reference" "D22"
 			(at 176.53 95.25 90)
 			(effects
 				(font
@@ -2403,7 +2401,7 @@
 		(instances
 			(project "yellow_panda"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/045d001c-aadb-4000-b926-9ec91ee3bce8"
-					(reference "D17")
+					(reference "D22")
 					(unit 1)
 				)
 			)
@@ -2434,7 +2432,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiswitch/hotswaps:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 120.65 50.8 0)
 			(effects
 				(font
@@ -2501,7 +2499,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiswitch/hotswaps:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 146.05 127 0)
 			(effects
 				(font
@@ -2568,7 +2566,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiswitch/hotswaps:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 133.35 109.22 0)
 			(effects
 				(font
@@ -2620,7 +2618,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4224d136-5ddd-4de3-91d2-9f3f52f35b4f")
-		(property "Reference" "D23"
+		(property "Reference" "D28"
 			(at 176.53 114.3 90)
 			(effects
 				(font
@@ -2692,7 +2690,7 @@
 		(instances
 			(project "yellow_panda"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/045d001c-aadb-4000-b926-9ec91ee3bce8"
-					(reference "D23")
+					(reference "D28")
 					(unit 1)
 				)
 			)
@@ -2708,7 +2706,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46763f41-04a2-45a0-8a69-bc9df695c84d")
-		(property "Reference" "D4"
+		(property "Reference" "D9"
 			(at 163.83 55.88 90)
 			(effects
 				(font
@@ -2780,7 +2778,7 @@
 		(instances
 			(project "yellow_panda"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/045d001c-aadb-4000-b926-9ec91ee3bce8"
-					(reference "D4")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -2811,7 +2809,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiswitch/hotswaps:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 171.45 90.17 0)
 			(effects
 				(font
@@ -2878,7 +2876,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiswitch/hotswaps:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 120.65 109.22 0)
 			(effects
 				(font
@@ -2945,7 +2943,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiswitch/hotswaps:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 158.75 147.32 0)
 			(effects
 				(font
@@ -2997,7 +2995,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a408dc5-488d-4e25-97ec-4e4e0e8843da")
-		(property "Reference" "D1"
+		(property "Reference" "D6"
 			(at 125.73 55.88 90)
 			(effects
 				(font
@@ -3069,7 +3067,7 @@
 		(instances
 			(project "yellow_panda"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/045d001c-aadb-4000-b926-9ec91ee3bce8"
-					(reference "D1")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -3085,7 +3083,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6aaf09ee-5bb5-4427-9e5e-5108afb76e6e")
-		(property "Reference" "D18"
+		(property "Reference" "D23"
 			(at 113.03 114.3 90)
 			(effects
 				(font
@@ -3157,7 +3155,7 @@
 		(instances
 			(project "yellow_panda"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/045d001c-aadb-4000-b926-9ec91ee3bce8"
-					(reference "D18")
+					(reference "D23")
 					(unit 1)
 				)
 			)
@@ -3188,7 +3186,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiswitch/hotswaps:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 107.95 69.85 0)
 			(effects
 				(font
@@ -3255,7 +3253,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiswitch/hotswaps:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 120.65 127 0)
 			(effects
 				(font
@@ -3322,7 +3320,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiswitch/hotswaps:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 171.45 127 0)
 			(effects
 				(font
@@ -3389,7 +3387,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiswitch/hotswaps:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 133.35 90.17 0)
 			(effects
 				(font
@@ -3456,7 +3454,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiswitch/hotswaps:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 146.05 50.8 0)
 			(effects
 				(font
@@ -3508,7 +3506,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8cac88da-f500-4374-bce4-0dec9a63d1b8")
-		(property "Reference" "D24"
+		(property "Reference" "D29"
 			(at 113.03 132.08 90)
 			(effects
 				(font
@@ -3580,7 +3578,7 @@
 		(instances
 			(project "yellow_panda"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/045d001c-aadb-4000-b926-9ec91ee3bce8"
-					(reference "D24")
+					(reference "D29")
 					(unit 1)
 				)
 			)
@@ -3596,7 +3594,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d08bc34-2f67-48db-bae3-54057f9aed2b")
-		(property "Reference" "D11"
+		(property "Reference" "D16"
 			(at 176.53 74.93 90)
 			(effects
 				(font
@@ -3668,7 +3666,7 @@
 		(instances
 			(project "yellow_panda"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/045d001c-aadb-4000-b926-9ec91ee3bce8"
-					(reference "D11")
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -3699,7 +3697,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiswitch/hotswaps:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 158.75 109.22 0)
 			(effects
 				(font
@@ -3751,7 +3749,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9206017d-f71d-42f9-b107-efe88a07a197")
-		(property "Reference" "D8"
+		(property "Reference" "D13"
 			(at 138.43 74.93 90)
 			(effects
 				(font
@@ -3823,7 +3821,7 @@
 		(instances
 			(project "yellow_panda"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/045d001c-aadb-4000-b926-9ec91ee3bce8"
-					(reference "D8")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -3854,7 +3852,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiswitch/hotswaps:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.50u"
 			(at 171.45 147.32 0)
 			(effects
 				(font
@@ -3921,7 +3919,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiswitch/hotswaps:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 107.95 90.17 0)
 			(effects
 				(font
@@ -3973,7 +3971,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98e1d749-22a5-46e7-8962-f6a549f389dd")
-		(property "Reference" "D27"
+		(property "Reference" "D32"
 			(at 151.13 132.08 90)
 			(effects
 				(font
@@ -4045,7 +4043,7 @@
 		(instances
 			(project "yellow_panda"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/045d001c-aadb-4000-b926-9ec91ee3bce8"
-					(reference "D27")
+					(reference "D32")
 					(unit 1)
 				)
 			)
@@ -4061,7 +4059,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9dce6f6b-3dee-4770-9d54-a4cc780a96a2")
-		(property "Reference" "D21"
+		(property "Reference" "D26"
 			(at 151.13 114.3 90)
 			(effects
 				(font
@@ -4133,7 +4131,7 @@
 		(instances
 			(project "yellow_panda"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/045d001c-aadb-4000-b926-9ec91ee3bce8"
-					(reference "D21")
+					(reference "D26")
 					(unit 1)
 				)
 			)
@@ -4164,7 +4162,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiswitch/hotswaps:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 146.05 90.17 0)
 			(effects
 				(font
@@ -4216,7 +4214,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1dd0eaf-eb96-48cb-8f97-af49cdb7f88d")
-		(property "Reference" "D5"
+		(property "Reference" "D10"
 			(at 176.53 55.88 90)
 			(effects
 				(font
@@ -4288,7 +4286,7 @@
 		(instances
 			(project "yellow_panda"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/045d001c-aadb-4000-b926-9ec91ee3bce8"
-					(reference "D5")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -4319,7 +4317,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiswitch/hotswaps:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 133.35 127 0)
 			(effects
 				(font
@@ -4386,7 +4384,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiswitch/hotswaps:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 158.75 50.8 0)
 			(effects
 				(font
@@ -4453,7 +4451,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiswitch/hotswaps:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 158.75 69.85 0)
 			(effects
 				(font
@@ -4505,7 +4503,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1fd72fb-501a-4f19-8e7d-4081ce6308ad")
-		(property "Reference" "D12"
+		(property "Reference" "D17"
 			(at 113.03 95.25 90)
 			(effects
 				(font
@@ -4577,7 +4575,7 @@
 		(instances
 			(project "yellow_panda"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/045d001c-aadb-4000-b926-9ec91ee3bce8"
-					(reference "D12")
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -4593,7 +4591,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b271550d-5a44-47c4-b9e9-9092164fb2be")
-		(property "Reference" "D9"
+		(property "Reference" "D14"
 			(at 151.13 74.93 90)
 			(effects
 				(font
@@ -4665,7 +4663,7 @@
 		(instances
 			(project "yellow_panda"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/045d001c-aadb-4000-b926-9ec91ee3bce8"
-					(reference "D9")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -4681,7 +4679,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b665e652-e604-4f82-88d7-0d440bc95759")
-		(property "Reference" "D7"
+		(property "Reference" "D12"
 			(at 125.73 74.93 90)
 			(effects
 				(font
@@ -4753,7 +4751,7 @@
 		(instances
 			(project "yellow_panda"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/045d001c-aadb-4000-b926-9ec91ee3bce8"
-					(reference "D7")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -4769,7 +4767,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b74f2f06-4055-4f11-b827-e62864c7ffd9")
-		(property "Reference" "D13"
+		(property "Reference" "D18"
 			(at 125.73 95.25 90)
 			(effects
 				(font
@@ -4841,7 +4839,7 @@
 		(instances
 			(project "yellow_panda"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/045d001c-aadb-4000-b926-9ec91ee3bce8"
-					(reference "D13")
+					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -4872,7 +4870,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiswitch/hotswaps:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 107.95 109.22 0)
 			(effects
 				(font
@@ -4924,7 +4922,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c39b4023-8a74-46e4-8fe7-666da4b0d661")
-		(property "Reference" "D19"
+		(property "Reference" "D24"
 			(at 125.73 114.3 90)
 			(effects
 				(font
@@ -4996,7 +4994,7 @@
 		(instances
 			(project "yellow_panda"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/045d001c-aadb-4000-b926-9ec91ee3bce8"
-					(reference "D19")
+					(reference "D24")
 					(unit 1)
 				)
 			)
@@ -5027,7 +5025,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiswitch/hotswaps:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 133.35 50.8 0)
 			(effects
 				(font
@@ -5079,7 +5077,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6edd65c-6015-4d7f-b533-bd2310f5a7e4")
-		(property "Reference" "D32"
+		(property "Reference" "D37"
 			(at 176.53 152.4 90)
 			(effects
 				(font
@@ -5151,7 +5149,7 @@
 		(instances
 			(project "yellow_panda"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/045d001c-aadb-4000-b926-9ec91ee3bce8"
-					(reference "D32")
+					(reference "D37")
 					(unit 1)
 				)
 			)
@@ -5167,7 +5165,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9dde385-1cae-4d5c-a665-2b0755647937")
-		(property "Reference" "D25"
+		(property "Reference" "D30"
 			(at 125.73 132.08 90)
 			(effects
 				(font
@@ -5239,7 +5237,7 @@
 		(instances
 			(project "yellow_panda"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/045d001c-aadb-4000-b926-9ec91ee3bce8"
-					(reference "D25")
+					(reference "D30")
 					(unit 1)
 				)
 			)
@@ -5255,7 +5253,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf6534a6-7ee8-4eed-9285-2d667f3985f4")
-		(property "Reference" "D10"
+		(property "Reference" "D15"
 			(at 163.83 74.93 90)
 			(effects
 				(font
@@ -5327,7 +5325,7 @@
 		(instances
 			(project "yellow_panda"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/045d001c-aadb-4000-b926-9ec91ee3bce8"
-					(reference "D10")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -5343,7 +5341,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5eaa86e-9030-49b7-8939-05e5eea22a28")
-		(property "Reference" "D2"
+		(property "Reference" "D7"
 			(at 138.43 55.88 90)
 			(effects
 				(font
@@ -5415,7 +5413,7 @@
 		(instances
 			(project "yellow_panda"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/045d001c-aadb-4000-b926-9ec91ee3bce8"
-					(reference "D2")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -5446,7 +5444,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiswitch/hotswaps:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 158.75 90.17 0)
 			(effects
 				(font
@@ -5513,7 +5511,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiswitch/hotswaps:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 171.45 69.85 0)
 			(effects
 				(font
@@ -5580,7 +5578,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiswitch/hotswaps:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 146.05 147.32 0)
 			(effects
 				(font
@@ -5647,7 +5645,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiswitch/hotswaps:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 146.05 109.22 0)
 			(effects
 				(font
@@ -5714,7 +5712,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiswitch/hotswaps:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 120.65 69.85 0)
 			(effects
 				(font
@@ -5766,7 +5764,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6d90f5b-5ad5-4f65-a27b-3897a5e3ca72")
-		(property "Reference" "D16"
+		(property "Reference" "D21"
 			(at 163.83 95.25 90)
 			(effects
 				(font
@@ -5838,7 +5836,7 @@
 		(instances
 			(project "yellow_panda"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/045d001c-aadb-4000-b926-9ec91ee3bce8"
-					(reference "D16")
+					(reference "D21")
 					(unit 1)
 				)
 			)
@@ -5854,7 +5852,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e79ab248-a8fa-4570-afd2-8261f31b7fcc")
-		(property "Reference" "D30"
+		(property "Reference" "D35"
 			(at 151.13 152.4 90)
 			(effects
 				(font
@@ -5926,7 +5924,7 @@
 		(instances
 			(project "yellow_panda"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/045d001c-aadb-4000-b926-9ec91ee3bce8"
-					(reference "D30")
+					(reference "D35")
 					(unit 1)
 				)
 			)
@@ -5942,7 +5940,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f40273db-2653-4f6e-af5c-c6bacc3c161c")
-		(property "Reference" "D28"
+		(property "Reference" "D33"
 			(at 163.83 132.08 90)
 			(effects
 				(font
@@ -6014,7 +6012,7 @@
 		(instances
 			(project "yellow_panda"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/045d001c-aadb-4000-b926-9ec91ee3bce8"
-					(reference "D28")
+					(reference "D33")
 					(unit 1)
 				)
 			)
@@ -6045,7 +6043,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiswitch/hotswaps:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 171.45 109.22 0)
 			(effects
 				(font
@@ -6097,7 +6095,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f66b089b-7819-401d-9adf-874134d4dcba")
-		(property "Reference" "D15"
+		(property "Reference" "D20"
 			(at 151.13 95.25 90)
 			(effects
 				(font
@@ -6169,7 +6167,7 @@
 		(instances
 			(project "yellow_panda"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/045d001c-aadb-4000-b926-9ec91ee3bce8"
-					(reference "D15")
+					(reference "D20")
 					(unit 1)
 				)
 			)
@@ -6200,7 +6198,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiswitch/hotswaps:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 146.05 69.85 0)
 			(effects
 				(font
@@ -6252,7 +6250,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9e2917a-dfb7-42bd-ac07-e7acd31d5235")
-		(property "Reference" "D6"
+		(property "Reference" "D11"
 			(at 113.03 74.93 90)
 			(effects
 				(font
@@ -6324,7 +6322,7 @@
 		(instances
 			(project "yellow_panda"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/045d001c-aadb-4000-b926-9ec91ee3bce8"
-					(reference "D6")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -6355,7 +6353,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiswitch/hotswaps:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 133.35 69.85 0)
 			(effects
 				(font

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "stm32")(type "KiCad")(uri "C:/ortho/kicad_libs/stm32/stm32F446.kicad_sym")(options "")(descr ""))
+)

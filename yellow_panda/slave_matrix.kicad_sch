@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "c8aea2b5-5518-4faf-80a7-69c7b93e7dcc")
 	(paper "A4")
 	(title_block
@@ -9,9 +9,13 @@
 	)
 	(lib_symbols
 		(symbol "Device:D"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -109,10 +113,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -121,10 +125,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+						(xy 1.27 0) (xy -1.27 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -170,11 +174,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Switch:SW_Push_45deg"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -232,6 +241,18 @@
 				)
 			)
 			(symbol "SW_Push_45deg_0_1"
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -1.524 1.524) (xy -1.524 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(circle
 					(center -1.1684 1.1684)
 					(radius 0.508)
@@ -267,10 +288,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -2.54 2.54) (xy -1.524 1.524) (xy -1.524 1.524)
-					)
+				(circle
+					(center 1.143 -1.1938)
+					(radius 0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -283,17 +303,6 @@
 					(pts
 						(xy 1.524 -1.524) (xy 2.54 -2.54) (xy 2.54 -2.54) (xy 2.54 -2.54)
 					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.143 -1.1938)
-					(radius 0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -339,7 +348,20 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(junction
+		(at 121.92 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0dc2e4fe-f30e-4c96-bf05-9bde6861cece")
+	)
+	(junction
+		(at 154.94 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f2ac641-8713-42f3-a4f2-2b66c33a03cc")
 	)
 	(junction
 		(at 160.02 110.49)
@@ -348,22 +370,16 @@
 		(uuid "170b6579-128d-4715-8c02-9d54cb4e1363")
 	)
 	(junction
-		(at 134.62 52.07)
+		(at 129.54 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "22798f31-69ae-44ea-91fd-d51b26537586")
+		(uuid "1de3ff0f-b18c-484d-bb2b-7f456bf0e040")
 	)
 	(junction
-		(at 172.72 52.07)
+		(at 116.84 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "24766c63-a334-4bb5-9287-71845c7a043e")
-	)
-	(junction
-		(at 167.64 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "25c7d844-ca55-4c43-86a5-cc0ca60248a2")
+		(uuid "26582224-9193-46f4-960f-c0c884355763")
 	)
 	(junction
 		(at 121.92 71.12)
@@ -414,6 +430,12 @@
 		(uuid "405ecc74-32e1-4435-b7d1-346b40266c69")
 	)
 	(junction
+		(at 104.14 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40f8a017-ce30-4ac0-9b72-99f38387475a")
+	)
+	(junction
 		(at 134.62 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -436,6 +458,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4f2dc4d7-4846-4ae5-aa19-1e583ad72ccb")
+	)
+	(junction
+		(at 147.32 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53a6deca-9a3b-44c5-813e-5bbcba982cea")
 	)
 	(junction
 		(at 154.94 58.42)
@@ -462,22 +490,10 @@
 		(uuid "60352232-7184-471d-8aca-b620b9ecd655")
 	)
 	(junction
-		(at 172.72 147.32)
+		(at 116.84 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6467ad56-243c-479a-8ba4-7ac3c134fdcd")
-	)
-	(junction
-		(at 154.94 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "64baae41-e038-4bb4-98e9-d153570dbe1b")
-	)
-	(junction
-		(at 167.64 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6c2a3e9e-eb59-4c96-8e41-ecaf46765de7")
+		(uuid "6d7e6180-f2c7-4475-956e-f578681570b1")
 	)
 	(junction
 		(at 172.72 71.12)
@@ -492,16 +508,16 @@
 		(uuid "70f40d7b-4cc7-4a6d-aaa7-9122c9df3535")
 	)
 	(junction
+		(at 160.02 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72b10522-b95d-400d-a30a-f47363500387")
+	)
+	(junction
 		(at 154.94 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "739c14e2-9b9d-45cb-a23f-1fcec9b06b63")
-	)
-	(junction
-		(at 129.54 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7bf3919c-428b-4003-b917-6c58842f0247")
 	)
 	(junction
 		(at 172.72 128.27)
@@ -516,16 +532,16 @@
 		(uuid "84eb9d29-34d9-443e-86a5-c884fdd92e73")
 	)
 	(junction
+		(at 129.54 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8677f68a-36b3-4f27-8639-a32feb6942ea")
+	)
+	(junction
 		(at 142.24 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "89fcd557-e364-4940-a86a-ac43a4da5054")
-	)
-	(junction
-		(at 142.24 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "940204da-3506-45c3-bdd3-a1fcb4215d55")
 	)
 	(junction
 		(at 121.92 128.27)
@@ -534,10 +550,10 @@
 		(uuid "9a415b7f-ace1-459a-ac47-fe7c98fccb85")
 	)
 	(junction
-		(at 160.02 147.32)
+		(at 134.62 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a2deaa20-fb3f-4013-acf3-e72e7cd4cd36")
+		(uuid "9dc4a9f9-a842-4ff0-8558-0ab39da4f9ca")
 	)
 	(junction
 		(at 167.64 78.74)
@@ -552,22 +568,22 @@
 		(uuid "a8bc583b-db55-43a6-8f9c-cb8e3a49bc32")
 	)
 	(junction
-		(at 142.24 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aa3e61c4-3960-4887-8516-59e06b2b13a6")
-	)
-	(junction
-		(at 154.94 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ac5462c5-ec35-41a8-832b-02bdda315f24")
-	)
-	(junction
 		(at 104.14 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b7bdf631-47db-4425-9a5f-efcd0f5e8160")
+	)
+	(junction
+		(at 134.62 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9de7c12-5854-44e8-9701-1a06911670ee")
+	)
+	(junction
+		(at 142.24 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba9ec646-9222-4773-8168-00cb42492379")
 	)
 	(junction
 		(at 147.32 128.27)
@@ -582,16 +598,16 @@
 		(uuid "be53f368-1f38-40c0-bdbc-c5267765afcf")
 	)
 	(junction
-		(at 160.02 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c4968ddd-5e58-4f25-9397-7c3285ec36e8")
-	)
-	(junction
 		(at 167.64 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c65b1470-089e-4114-b500-cf2450df01b8")
+	)
+	(junction
+		(at 104.14 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d723282b-dcbc-489f-b242-9fa3cb6271ab")
 	)
 	(junction
 		(at 160.02 128.27)
@@ -610,12 +626,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e181bc3f-8ac0-4fc3-b025-726c311ba109")
-	)
-	(junction
-		(at 116.84 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e5c32e42-ae29-4f93-aaf6-7ce1d3c8fc0e")
 	)
 	(junction
 		(at 142.24 78.74)
@@ -642,10 +652,10 @@
 		(uuid "ee2c99bc-5b00-4e74-bb01-c7d94b1126c3")
 	)
 	(junction
-		(at 147.32 52.07)
+		(at 121.92 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ef9d5647-dd84-4ea9-9146-32a31c54c645")
+		(uuid "f6e53052-87df-4005-b076-f98012bb6b66")
 	)
 	(junction
 		(at 129.54 58.42)
@@ -672,6 +682,16 @@
 			(type default)
 		)
 		(uuid "049853bf-09bc-4093-9440-634417530865")
+	)
+	(wire
+		(pts
+			(xy 109.22 52.07) (xy 121.92 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06927f64-d60b-48c0-9a48-bbf7f1ec4535")
 	)
 	(wire
 		(pts
@@ -705,16 +725,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 147.32) (xy 160.02 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2731a645-c821-48ef-a336-4383934dc245")
-	)
-	(wire
-		(pts
 			(xy 167.64 97.79) (xy 167.64 115.57)
 		)
 		(stroke
@@ -725,23 +735,23 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 52.07) (xy 172.72 52.07)
+			(xy 104.14 39.37) (xy 104.14 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "32c6a6a8-b9b4-4b08-b60e-838396bdc57d")
+		(uuid "306aabef-774b-45e5-a9cf-c98fcd1bd126")
 	)
 	(wire
 		(pts
-			(xy 142.24 115.57) (xy 142.24 134.62)
+			(xy 121.92 52.07) (xy 134.62 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "38a1756c-e69f-4ecf-a709-8ed3941e8d81")
+		(uuid "346560b5-b1bd-4174-81c4-7a18a57dd085")
 	)
 	(wire
 		(pts
@@ -755,23 +765,23 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 52.07) (xy 134.62 52.07)
+			(xy 121.92 146.05) (xy 134.62 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3efc4f55-bd58-4b0e-ae4f-d70f80679b91")
+		(uuid "415c0887-de79-40a0-b022-bcf2204dadee")
 	)
 	(wire
 		(pts
-			(xy 154.94 115.57) (xy 154.94 134.62)
+			(xy 116.84 39.37) (xy 116.84 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "40e0510b-b2f1-4dbd-b8bb-08b5a5ce6dc4")
+		(uuid "44aef330-822e-4239-abf9-5db53eff0699")
 	)
 	(wire
 		(pts
@@ -785,6 +795,36 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 52.07) (xy 147.32 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "458a3d57-bd13-4fec-a36c-9fbc35eef237")
+	)
+	(wire
+		(pts
+			(xy 104.14 115.57) (xy 104.14 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4af7abd5-9b73-43a5-b979-1b5dc2b58700")
+	)
+	(wire
+		(pts
+			(xy 142.24 39.37) (xy 142.24 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57507065-c86f-4087-81b8-b9ee93ba0f65")
+	)
+	(wire
+		(pts
 			(xy 104.14 58.42) (xy 104.14 78.74)
 		)
 		(stroke
@@ -795,13 +835,13 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 34.29) (xy 142.24 39.37)
+			(xy 160.02 52.07) (xy 186.69 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "59eddda0-1fbf-432c-86ae-0deea7296982")
+		(uuid "5953215c-3887-486f-8329-420ab9556dad")
 	)
 	(wire
 		(pts
@@ -812,16 +852,6 @@
 			(type default)
 		)
 		(uuid "612521c9-7f1a-4d31-91d3-5ca65394a1d3")
-	)
-	(wire
-		(pts
-			(xy 116.84 34.29) (xy 116.84 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61d30aae-3ad2-4040-81e1-5f3eab43c0a5")
 	)
 	(wire
 		(pts
@@ -875,26 +905,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 115.57) (xy 167.64 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "714c6809-0882-4d76-9460-916368ada7f1")
-	)
-	(wire
-		(pts
-			(xy 154.94 34.29) (xy 154.94 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72231800-5413-407d-8786-4ee8bdb576f4")
-	)
-	(wire
-		(pts
 			(xy 147.32 71.12) (xy 160.02 71.12)
 		)
 		(stroke
@@ -902,6 +912,16 @@
 			(type default)
 		)
 		(uuid "784bcfcd-1012-4851-ac30-f31769d8a4be")
+	)
+	(wire
+		(pts
+			(xy 109.22 146.05) (xy 121.92 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "853b6b5c-2a6d-4c10-8b3b-6e64c0fdabe2")
 	)
 	(wire
 		(pts
@@ -935,6 +955,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 39.37) (xy 154.94 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9093c3d3-b787-4216-9d11-aa6a18b1a72a")
+	)
+	(wire
+		(pts
 			(xy 116.84 58.42) (xy 116.84 78.74)
 		)
 		(stroke
@@ -965,17 +995,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 39.37) (xy 129.54 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "933858fd-831b-454a-b607-211fb6ed4868")
-	)
-	(wire
-		(pts
-			(xy 116.84 39.37) (xy 116.84 58.42)
+			(xy 116.84 34.29) (xy 116.84 39.37)
 		)
 		(stroke
 			(width 0)
@@ -995,7 +1015,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 39.37) (xy 167.64 58.42)
+			(xy 167.64 34.29) (xy 167.64 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1055,7 +1075,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 39.37) (xy 142.24 58.42)
+			(xy 142.24 34.29) (xy 142.24 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1085,6 +1105,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 146.05) (xy 153.67 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcb90f9e-6d5c-43fb-afd4-cb01a5674876")
+	)
+	(wire
+		(pts
 			(xy 109.22 71.12) (xy 121.92 71.12)
 		)
 		(stroke
@@ -1092,16 +1122,6 @@
 			(type default)
 		)
 		(uuid "c193ae00-c678-46f4-bb89-99526e24776d")
-	)
-	(wire
-		(pts
-			(xy 172.72 52.07) (xy 186.69 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1faa8f4-9346-4505-b11a-84440ab4623c")
 	)
 	(wire
 		(pts
@@ -1115,27 +1135,17 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 52.07) (xy 147.32 52.07)
+			(xy 129.54 115.57) (xy 129.54 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c5b9003a-62f0-432a-aaef-7b2184081563")
+		(uuid "c3c290a0-2eb3-4607-a2e3-64f7fd2c9453")
 	)
 	(wire
 		(pts
-			(xy 172.72 147.32) (xy 186.69 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c69feabe-44e7-4a48-a66a-1d68e139963a")
-	)
-	(wire
-		(pts
-			(xy 104.14 34.29) (xy 104.14 58.42)
+			(xy 104.14 34.29) (xy 104.14 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1165,7 +1175,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 39.37) (xy 154.94 58.42)
+			(xy 154.94 34.29) (xy 154.94 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1205,26 +1215,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 52.07) (xy 160.02 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d28553a6-26e3-4726-85cf-0b19191f6c9e")
-	)
-	(wire
-		(pts
-			(xy 167.64 34.29) (xy 167.64 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2fae913-aeaa-43de-8bc6-88eca068cf29")
-	)
-	(wire
-		(pts
 			(xy 147.32 91.44) (xy 160.02 91.44)
 		)
 		(stroke
@@ -1255,13 +1245,23 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 147.32) (xy 172.72 147.32)
+			(xy 129.54 39.37) (xy 129.54 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ef81ebe0-e3d2-487a-b4cf-197b4b6c7914")
+		(uuid "e38cda9c-9b52-4a40-9066-8be98a9aa3ea")
+	)
+	(wire
+		(pts
+			(xy 147.32 52.07) (xy 160.02 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eec8fc19-705b-4b4c-9809-161c8f27bcac")
 	)
 	(wire
 		(pts
@@ -1272,6 +1272,16 @@
 			(type default)
 		)
 		(uuid "f0f9af40-cab3-4a69-bb76-10b546ed35eb")
+	)
+	(wire
+		(pts
+			(xy 116.84 115.57) (xy 116.84 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1cad147-8974-42c1-be6d-161f24298607")
 	)
 	(wire
 		(pts
@@ -1296,7 +1306,6 @@
 	(hierarchical_label "COL5b"
 		(shape input)
 		(at 167.64 34.29 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1308,7 +1317,6 @@
 	(hierarchical_label "COL3b"
 		(shape input)
 		(at 142.24 34.29 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1320,7 +1328,6 @@
 	(hierarchical_label "ROW4b"
 		(shape output)
 		(at 186.69 128.27 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1332,7 +1339,6 @@
 	(hierarchical_label "COL4b"
 		(shape input)
 		(at 154.94 34.29 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1344,7 +1350,6 @@
 	(hierarchical_label "ROW1b"
 		(shape output)
 		(at 186.69 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1356,7 +1361,6 @@
 	(hierarchical_label "ROW3b"
 		(shape output)
 		(at 186.69 110.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1368,7 +1372,6 @@
 	(hierarchical_label "ROW2b"
 		(shape output)
 		(at 186.69 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1380,7 +1383,6 @@
 	(hierarchical_label "COL1b"
 		(shape input)
 		(at 116.84 34.29 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1392,7 +1394,6 @@
 	(hierarchical_label "COL0b"
 		(shape input)
 		(at 104.14 34.29 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1404,7 +1405,6 @@
 	(hierarchical_label "COL2b"
 		(shape input)
 		(at 129.54 34.29 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1416,7 +1416,6 @@
 	(hierarchical_label "ROW0b"
 		(shape output)
 		(at 186.69 52.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1427,15 +1426,14 @@
 	)
 	(hierarchical_label "ROW6b"
 		(shape output)
-		(at 186.69 147.32 0)
-		(fields_autoplaced yes)
+		(at 153.67 146.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "f51f9a55-22d1-4b73-b063-2097d61b971a")
+		(uuid "dd585341-cd98-4299-a72a-2c3be4c4155f")
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
@@ -1462,7 +1460,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiswitch/hotswaps:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 106.68 118.11 0)
 			(effects
 				(font
@@ -1529,7 +1527,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiswitch/hotswaps:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 170.18 81.28 0)
 			(effects
 				(font
@@ -1581,7 +1579,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18903981-443b-4c9a-8a1b-6cbb3b23d68b")
-		(property "Reference" "D46"
+		(property "Reference" "D51"
 			(at 137.16 86.36 90)
 			(effects
 				(font
@@ -1653,7 +1651,7 @@
 		(instances
 			(project "yellow_panda"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/daf38869-5fa9-4fde-afdc-b825255e45f2"
-					(reference "D46")
+					(reference "D51")
 					(unit 1)
 				)
 			)
@@ -1661,7 +1659,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 170.18 41.91 0)
+		(at 157.48 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1669,7 +1667,7 @@
 		(dnp no)
 		(uuid "212f4705-dcea-4186-aa3d-01d6fc22d928")
 		(property "Reference" "SW37"
-			(at 170.18 38.1 0)
+			(at 157.48 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1677,15 +1675,15 @@
 			)
 		)
 		(property "Value" "~"
-			(at 170.18 36.83 0)
+			(at 157.48 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "kiswitch/hotswaps:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
-			(at 170.18 41.91 0)
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
+			(at 157.48 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1694,7 +1692,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 41.91 0)
+			(at 157.48 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1703,7 +1701,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 170.18 41.91 0)
+			(at 157.48 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1751,7 +1749,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiswitch/hotswaps:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 170.18 118.11 0)
 			(effects
 				(font
@@ -1803,7 +1801,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ce78a39-0310-40c3-9fd7-8b230cfae0ed")
-		(property "Reference" "D43"
+		(property "Reference" "D48"
 			(at 175.26 66.04 90)
 			(effects
 				(font
@@ -1875,7 +1873,7 @@
 		(instances
 			(project "yellow_panda"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/daf38869-5fa9-4fde-afdc-b825255e45f2"
-					(reference "D43")
+					(reference "D48")
 					(unit 1)
 				)
 			)
@@ -1891,7 +1889,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2de1de02-cf99-429e-907f-50223394d1d1")
-		(property "Reference" "D38"
+		(property "Reference" "D43"
 			(at 111.76 66.04 90)
 			(effects
 				(font
@@ -1963,7 +1961,7 @@
 		(instances
 			(project "yellow_panda"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/daf38869-5fa9-4fde-afdc-b825255e45f2"
-					(reference "D38")
+					(reference "D43")
 					(unit 1)
 				)
 			)
@@ -1979,7 +1977,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ee96ded-45e0-448e-878a-cf2c0199e980")
-		(property "Reference" "D51"
+		(property "Reference" "D56"
 			(at 124.46 105.41 90)
 			(effects
 				(font
@@ -2051,7 +2049,7 @@
 		(instances
 			(project "yellow_panda"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/daf38869-5fa9-4fde-afdc-b825255e45f2"
-					(reference "D51")
+					(reference "D56")
 					(unit 1)
 				)
 			)
@@ -2059,7 +2057,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 144.78 41.91 0)
+		(at 132.08 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2067,7 +2065,7 @@
 		(dnp no)
 		(uuid "2eeffaee-2d42-4c1c-b431-55ac4bb88fd6")
 		(property "Reference" "SW35"
-			(at 144.78 38.1 0)
+			(at 132.08 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2075,15 +2073,15 @@
 			)
 		)
 		(property "Value" "~"
-			(at 144.78 36.83 0)
+			(at 132.08 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "kiswitch/hotswaps:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
-			(at 144.78 41.91 0)
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
+			(at 132.08 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2092,7 +2090,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 41.91 0)
+			(at 132.08 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2101,7 +2099,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 144.78 41.91 0)
+			(at 132.08 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2134,7 +2132,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36015e56-d4fa-4745-a214-823001312416")
-		(property "Reference" "D60"
+		(property "Reference" "D65"
 			(at 162.56 123.19 90)
 			(effects
 				(font
@@ -2206,7 +2204,7 @@
 		(instances
 			(project "yellow_panda"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/daf38869-5fa9-4fde-afdc-b825255e45f2"
-					(reference "D60")
+					(reference "D65")
 					(unit 1)
 				)
 			)
@@ -2237,7 +2235,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiswitch/hotswaps:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 132.08 118.11 0)
 			(effects
 				(font
@@ -2304,7 +2302,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiswitch/hotswaps:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 170.18 100.33 0)
 			(effects
 				(font
@@ -2348,7 +2346,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 144.78 137.16 0)
+		(at 106.68 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2356,7 +2354,7 @@
 		(dnp no)
 		(uuid "409bae3d-6e76-40e1-9fec-b2a07ffef3ff")
 		(property "Reference" "SW62"
-			(at 144.78 133.35 0)
+			(at 106.68 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2364,15 +2362,15 @@
 			)
 		)
 		(property "Value" "~"
-			(at 144.78 132.08 0)
+			(at 106.68 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "kiswitch/hotswaps:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
-			(at 144.78 137.16 0)
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.50u"
+			(at 106.68 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2381,7 +2379,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 137.16 0)
+			(at 106.68 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2390,7 +2388,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 144.78 137.16 0)
+			(at 106.68 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2423,7 +2421,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40f44661-fbd6-4104-99ab-2efea9e812a1")
-		(property "Reference" "D61"
+		(property "Reference" "D66"
 			(at 175.26 123.19 90)
 			(effects
 				(font
@@ -2495,7 +2493,7 @@
 		(instances
 			(project "yellow_panda"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/daf38869-5fa9-4fde-afdc-b825255e45f2"
-					(reference "D61")
+					(reference "D66")
 					(unit 1)
 				)
 			)
@@ -2511,7 +2509,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48393d01-304d-422a-b2b5-64c6aa262d99")
-		(property "Reference" "D39"
+		(property "Reference" "D44"
 			(at 124.46 66.04 90)
 			(effects
 				(font
@@ -2583,7 +2581,7 @@
 		(instances
 			(project "yellow_panda"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/daf38869-5fa9-4fde-afdc-b825255e45f2"
-					(reference "D39")
+					(reference "D44")
 					(unit 1)
 				)
 			)
@@ -2591,7 +2589,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 147.32 143.51 90)
+		(at 109.22 142.24 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2599,8 +2597,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53926581-6a4e-413d-844b-fb6627cd474f")
-		(property "Reference" "D62"
-			(at 149.86 142.24 90)
+		(property "Reference" "D67"
+			(at 111.76 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2609,7 +2607,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 149.86 144.78 90)
+			(at 111.76 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2618,7 +2616,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 147.32 143.51 0)
+			(at 109.22 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2627,7 +2625,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.32 143.51 0)
+			(at 109.22 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2636,7 +2634,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 147.32 143.51 0)
+			(at 109.22 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2645,7 +2643,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 147.32 143.51 0)
+			(at 109.22 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2654,7 +2652,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 147.32 143.51 0)
+			(at 109.22 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2671,7 +2669,7 @@
 		(instances
 			(project "yellow_panda"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/daf38869-5fa9-4fde-afdc-b825255e45f2"
-					(reference "D62")
+					(reference "D67")
 					(unit 1)
 				)
 			)
@@ -2702,7 +2700,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiswitch/hotswaps:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 144.78 60.96 0)
 			(effects
 				(font
@@ -2746,7 +2744,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 121.92 48.26 90)
+		(at 109.22 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2754,8 +2752,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5854d042-5307-4326-962d-aae65956be9b")
-		(property "Reference" "D33"
-			(at 124.46 46.99 90)
+		(property "Reference" "D38"
+			(at 111.76 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2764,7 +2762,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 124.46 49.53 90)
+			(at 111.76 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2773,7 +2771,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 121.92 48.26 0)
+			(at 109.22 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2782,7 +2780,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 48.26 0)
+			(at 109.22 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2791,7 +2789,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 121.92 48.26 0)
+			(at 109.22 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2800,7 +2798,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 121.92 48.26 0)
+			(at 109.22 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2809,7 +2807,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 121.92 48.26 0)
+			(at 109.22 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2826,7 +2824,7 @@
 		(instances
 			(project "yellow_panda"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/daf38869-5fa9-4fde-afdc-b825255e45f2"
-					(reference "D33")
+					(reference "D38")
 					(unit 1)
 				)
 			)
@@ -2857,7 +2855,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiswitch/hotswaps:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 144.78 118.11 0)
 			(effects
 				(font
@@ -2909,7 +2907,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59b7d6fa-3ebd-4497-82df-a327f9844c6e")
-		(property "Reference" "D58"
+		(property "Reference" "D63"
 			(at 137.16 123.19 90)
 			(effects
 				(font
@@ -2981,7 +2979,7 @@
 		(instances
 			(project "yellow_panda"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/daf38869-5fa9-4fde-afdc-b825255e45f2"
-					(reference "D58")
+					(reference "D63")
 					(unit 1)
 				)
 			)
@@ -2989,7 +2987,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 170.18 137.16 0)
+		(at 132.08 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2997,7 +2995,7 @@
 		(dnp no)
 		(uuid "625bc89a-632c-4f0f-bbc8-871a9a011f71")
 		(property "Reference" "SW64"
-			(at 170.18 133.35 0)
+			(at 132.08 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3005,15 +3003,15 @@
 			)
 		)
 		(property "Value" "~"
-			(at 170.18 132.08 0)
+			(at 132.08 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "kiswitch/hotswaps:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
-			(at 170.18 137.16 0)
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
+			(at 132.08 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3022,7 +3020,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 137.16 0)
+			(at 132.08 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3031,7 +3029,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 170.18 137.16 0)
+			(at 132.08 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3064,7 +3062,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "633e7f9d-d0fa-49eb-8834-1bcddaa03765")
-		(property "Reference" "D47"
+		(property "Reference" "D52"
 			(at 149.86 86.36 90)
 			(effects
 				(font
@@ -3136,7 +3134,7 @@
 		(instances
 			(project "yellow_panda"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/daf38869-5fa9-4fde-afdc-b825255e45f2"
-					(reference "D47")
+					(reference "D52")
 					(unit 1)
 				)
 			)
@@ -3152,7 +3150,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "633eb50d-054b-4cd8-a0f6-c57f20c8b137")
-		(property "Reference" "D57"
+		(property "Reference" "D62"
 			(at 124.46 123.19 90)
 			(effects
 				(font
@@ -3224,7 +3222,7 @@
 		(instances
 			(project "yellow_panda"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/daf38869-5fa9-4fde-afdc-b825255e45f2"
-					(reference "D57")
+					(reference "D62")
 					(unit 1)
 				)
 			)
@@ -3255,7 +3253,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiswitch/hotswaps:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 119.38 118.11 0)
 			(effects
 				(font
@@ -3299,249 +3297,6 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 147.32 48.26 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6de5722a-a778-4293-8261-b5ee82fe4cd3")
-		(property "Reference" "D35"
-			(at 149.86 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "~"
-			(at 149.86 49.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 147.32 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 147.32 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 147.32 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 147.32 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 147.32 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6ea92a65-30be-4c6e-b15b-7e9a5ce8074a")
-		)
-		(pin "1"
-			(uuid "1c767598-6402-4904-b5db-9cf8e07eb227")
-		)
-		(instances
-			(project "yellow_panda"
-				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/daf38869-5fa9-4fde-afdc-b825255e45f2"
-					(reference "D35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 172.72 143.51 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "72d61caf-9728-4d51-adc0-4ab2e1053239")
-		(property "Reference" "D64"
-			(at 175.26 142.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "~"
-			(at 175.26 144.78 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 172.72 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 172.72 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 172.72 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 172.72 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 172.72 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c6c24240-76db-4128-9cc0-e625c290ee60")
-		)
-		(pin "1"
-			(uuid "b0ba16d9-3b3b-4d7b-9712-bd1e88a49db1")
-		)
-		(instances
-			(project "yellow_panda"
-				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/daf38869-5fa9-4fde-afdc-b825255e45f2"
-					(reference "D64")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push_45deg")
-		(at 157.48 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "75deb782-badb-4880-aab0-c42b180e530a")
-		(property "Reference" "SW63"
-			(at 157.48 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 157.48 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "kiswitch/hotswaps:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
-			(at 157.48 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 157.48 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 157.48 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b51de3e1-5315-4dd7-84f6-2ba9dd634fe0")
-		)
-		(pin "1"
-			(uuid "2457fabb-baac-4e77-9aa1-81cbd09260df")
-		)
-		(instances
-			(project "yellow_panda"
-				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/daf38869-5fa9-4fde-afdc-b825255e45f2"
-					(reference "SW63")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
 		(at 134.62 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3549,8 +3304,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7835bdd2-2344-4a99-8e30-350d36bad259")
-		(property "Reference" "D34"
+		(uuid "6de5722a-a778-4293-8261-b5ee82fe4cd3")
+		(property "Reference" "D40"
 			(at 137.16 46.99 90)
 			(effects
 				(font
@@ -3614,6 +3369,249 @@
 			)
 		)
 		(pin "2"
+			(uuid "6ea92a65-30be-4c6e-b15b-7e9a5ce8074a")
+		)
+		(pin "1"
+			(uuid "1c767598-6402-4904-b5db-9cf8e07eb227")
+		)
+		(instances
+			(project "yellow_panda"
+				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/daf38869-5fa9-4fde-afdc-b825255e45f2"
+					(reference "D40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 134.62 142.24 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72d61caf-9728-4d51-adc0-4ab2e1053239")
+		(property "Reference" "D69"
+			(at 137.16 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 137.16 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 134.62 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 134.62 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 134.62 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c6c24240-76db-4128-9cc0-e625c290ee60")
+		)
+		(pin "1"
+			(uuid "b0ba16d9-3b3b-4d7b-9712-bd1e88a49db1")
+		)
+		(instances
+			(project "yellow_panda"
+				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/daf38869-5fa9-4fde-afdc-b825255e45f2"
+					(reference "D69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 119.38 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "75deb782-badb-4880-aab0-c42b180e530a")
+		(property "Reference" "SW63"
+			(at 119.38 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 119.38 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
+			(at 119.38 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b51de3e1-5315-4dd7-84f6-2ba9dd634fe0")
+		)
+		(pin "1"
+			(uuid "2457fabb-baac-4e77-9aa1-81cbd09260df")
+		)
+		(instances
+			(project "yellow_panda"
+				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/daf38869-5fa9-4fde-afdc-b825255e45f2"
+					(reference "SW63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 121.92 48.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7835bdd2-2344-4a99-8e30-350d36bad259")
+		(property "Reference" "D39"
+			(at 124.46 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 124.46 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 121.92 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 121.92 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 121.92 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
 			(uuid "ef687846-7568-49ab-8a18-97ec27074f90")
 		)
 		(pin "1"
@@ -3622,7 +3620,7 @@
 		(instances
 			(project "yellow_panda"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/daf38869-5fa9-4fde-afdc-b825255e45f2"
-					(reference "D34")
+					(reference "D39")
 					(unit 1)
 				)
 			)
@@ -3653,7 +3651,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiswitch/hotswaps:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 132.08 60.96 0)
 			(effects
 				(font
@@ -3705,7 +3703,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a117aac-22dd-4e45-a8a3-63930a747082")
-		(property "Reference" "D52"
+		(property "Reference" "D57"
 			(at 137.16 105.41 90)
 			(effects
 				(font
@@ -3777,7 +3775,7 @@
 		(instances
 			(project "yellow_panda"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/daf38869-5fa9-4fde-afdc-b825255e45f2"
-					(reference "D52")
+					(reference "D57")
 					(unit 1)
 				)
 			)
@@ -3808,7 +3806,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiswitch/hotswaps:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 157.48 118.11 0)
 			(effects
 				(font
@@ -3875,7 +3873,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiswitch/hotswaps:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 106.68 100.33 0)
 			(effects
 				(font
@@ -3927,7 +3925,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98dd2403-e6ca-4da8-b473-ec3b9db29d32")
-		(property "Reference" "D40"
+		(property "Reference" "D45"
 			(at 137.16 66.04 90)
 			(effects
 				(font
@@ -3999,7 +3997,7 @@
 		(instances
 			(project "yellow_panda"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/daf38869-5fa9-4fde-afdc-b825255e45f2"
-					(reference "D40")
+					(reference "D45")
 					(unit 1)
 				)
 			)
@@ -4007,7 +4005,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 132.08 41.91 0)
+		(at 119.38 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4015,7 +4013,7 @@
 		(dnp no)
 		(uuid "9d7c8d62-59e5-465c-b15f-e2907512a46d")
 		(property "Reference" "SW34"
-			(at 132.08 38.1 0)
+			(at 119.38 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4023,15 +4021,15 @@
 			)
 		)
 		(property "Value" "~"
-			(at 132.08 36.83 0)
+			(at 119.38 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "kiswitch/hotswaps:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
-			(at 132.08 41.91 0)
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
+			(at 119.38 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4040,7 +4038,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 41.91 0)
+			(at 119.38 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4049,7 +4047,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 132.08 41.91 0)
+			(at 119.38 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4074,7 +4072,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 160.02 143.51 90)
+		(at 121.92 142.24 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4082,8 +4080,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a59eed03-4b57-4538-a9ff-3e9c58968724")
-		(property "Reference" "D63"
-			(at 162.56 142.24 90)
+		(property "Reference" "D68"
+			(at 124.46 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4092,7 +4090,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 162.56 144.78 90)
+			(at 124.46 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4101,7 +4099,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 160.02 143.51 0)
+			(at 121.92 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4110,7 +4108,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 143.51 0)
+			(at 121.92 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4119,7 +4117,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 160.02 143.51 0)
+			(at 121.92 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4128,7 +4126,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 160.02 143.51 0)
+			(at 121.92 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4137,7 +4135,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 160.02 143.51 0)
+			(at 121.92 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4154,7 +4152,7 @@
 		(instances
 			(project "yellow_panda"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/daf38869-5fa9-4fde-afdc-b825255e45f2"
-					(reference "D63")
+					(reference "D68")
 					(unit 1)
 				)
 			)
@@ -4170,7 +4168,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6a6653e-1b5a-4877-a20e-a33b48c9360b")
-		(property "Reference" "D50"
+		(property "Reference" "D55"
 			(at 111.76 105.41 90)
 			(effects
 				(font
@@ -4242,7 +4240,7 @@
 		(instances
 			(project "yellow_panda"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/daf38869-5fa9-4fde-afdc-b825255e45f2"
-					(reference "D50")
+					(reference "D55")
 					(unit 1)
 				)
 			)
@@ -4250,7 +4248,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 119.38 41.91 0)
+		(at 106.68 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4258,7 +4256,7 @@
 		(dnp no)
 		(uuid "a86da2c4-69c2-4000-80cf-12221d04e34a")
 		(property "Reference" "SW33"
-			(at 119.38 38.1 0)
+			(at 106.68 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4266,15 +4264,15 @@
 			)
 		)
 		(property "Value" "~"
-			(at 119.38 36.83 0)
+			(at 106.68 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "kiswitch/hotswaps:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
-			(at 119.38 41.91 0)
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
+			(at 106.68 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4283,7 +4281,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 119.38 41.91 0)
+			(at 106.68 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4292,7 +4290,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 119.38 41.91 0)
+			(at 106.68 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4340,7 +4338,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiswitch/hotswaps:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 157.48 81.28 0)
 			(effects
 				(font
@@ -4407,7 +4405,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiswitch/hotswaps:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 157.48 100.33 0)
 			(effects
 				(font
@@ -4459,7 +4457,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac079739-3011-465a-8ce0-f494e849163b")
-		(property "Reference" "D54"
+		(property "Reference" "D59"
 			(at 162.56 105.41 90)
 			(effects
 				(font
@@ -4531,7 +4529,7 @@
 		(instances
 			(project "yellow_panda"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/daf38869-5fa9-4fde-afdc-b825255e45f2"
-					(reference "D54")
+					(reference "D59")
 					(unit 1)
 				)
 			)
@@ -4547,7 +4545,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b05543d3-d89a-4882-84c4-5081cf2c2371")
-		(property "Reference" "D48"
+		(property "Reference" "D53"
 			(at 162.56 86.36 90)
 			(effects
 				(font
@@ -4619,7 +4617,7 @@
 		(instances
 			(project "yellow_panda"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/daf38869-5fa9-4fde-afdc-b825255e45f2"
-					(reference "D48")
+					(reference "D53")
 					(unit 1)
 				)
 			)
@@ -4650,7 +4648,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiswitch/hotswaps:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 106.68 60.96 0)
 			(effects
 				(font
@@ -4702,7 +4700,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5c466db-a475-4c1a-a486-dc61cb5c3e57")
-		(property "Reference" "D45"
+		(property "Reference" "D50"
 			(at 124.46 86.36 90)
 			(effects
 				(font
@@ -4774,7 +4772,7 @@
 		(instances
 			(project "yellow_panda"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/daf38869-5fa9-4fde-afdc-b825255e45f2"
-					(reference "D45")
+					(reference "D50")
 					(unit 1)
 				)
 			)
@@ -4805,7 +4803,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiswitch/hotswaps:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 119.38 81.28 0)
 			(effects
 				(font
@@ -4872,7 +4870,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiswitch/hotswaps:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 157.48 60.96 0)
 			(effects
 				(font
@@ -4924,7 +4922,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c78b02ee-e8ca-411a-b02e-86e1a969e100")
-		(property "Reference" "D42"
+		(property "Reference" "D47"
 			(at 162.56 66.04 90)
 			(effects
 				(font
@@ -4996,7 +4994,7 @@
 		(instances
 			(project "yellow_panda"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/daf38869-5fa9-4fde-afdc-b825255e45f2"
-					(reference "D42")
+					(reference "D47")
 					(unit 1)
 				)
 			)
@@ -5004,7 +5002,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 172.72 48.26 90)
+		(at 160.02 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5012,8 +5010,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ccd6593e-9846-4a66-a27a-d0062ca549db")
-		(property "Reference" "D37"
-			(at 175.26 46.99 90)
+		(property "Reference" "D42"
+			(at 162.56 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5022,7 +5020,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 175.26 49.53 90)
+			(at 162.56 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5031,7 +5029,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 172.72 48.26 0)
+			(at 160.02 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5040,7 +5038,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 172.72 48.26 0)
+			(at 160.02 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5049,7 +5047,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 172.72 48.26 0)
+			(at 160.02 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5058,7 +5056,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 172.72 48.26 0)
+			(at 160.02 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5067,7 +5065,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 172.72 48.26 0)
+			(at 160.02 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5084,7 +5082,7 @@
 		(instances
 			(project "yellow_panda"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/daf38869-5fa9-4fde-afdc-b825255e45f2"
-					(reference "D37")
+					(reference "D42")
 					(unit 1)
 				)
 			)
@@ -5100,7 +5098,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d61ba8ef-c6e1-4857-b354-cad6a3e31247")
-		(property "Reference" "D53"
+		(property "Reference" "D58"
 			(at 149.86 105.41 90)
 			(effects
 				(font
@@ -5172,7 +5170,7 @@
 		(instances
 			(project "yellow_panda"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/daf38869-5fa9-4fde-afdc-b825255e45f2"
-					(reference "D53")
+					(reference "D58")
 					(unit 1)
 				)
 			)
@@ -5188,7 +5186,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d63c5f2e-b737-4e80-b35c-39e807e9a0cb")
-		(property "Reference" "D44"
+		(property "Reference" "D49"
 			(at 111.76 86.36 90)
 			(effects
 				(font
@@ -5260,7 +5258,7 @@
 		(instances
 			(project "yellow_panda"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/daf38869-5fa9-4fde-afdc-b825255e45f2"
-					(reference "D44")
+					(reference "D49")
 					(unit 1)
 				)
 			)
@@ -5291,7 +5289,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiswitch/hotswaps:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 132.08 81.28 0)
 			(effects
 				(font
@@ -5343,7 +5341,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db35beb5-1438-42b0-a3cc-3f8c4ca5592e")
-		(property "Reference" "D41"
+		(property "Reference" "D46"
 			(at 149.86 66.04 90)
 			(effects
 				(font
@@ -5415,7 +5413,7 @@
 		(instances
 			(project "yellow_panda"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/daf38869-5fa9-4fde-afdc-b825255e45f2"
-					(reference "D41")
+					(reference "D46")
 					(unit 1)
 				)
 			)
@@ -5446,7 +5444,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiswitch/hotswaps:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 119.38 100.33 0)
 			(effects
 				(font
@@ -5513,7 +5511,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiswitch/hotswaps:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 144.78 100.33 0)
 			(effects
 				(font
@@ -5565,7 +5563,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4cc6aa1-ec98-4d9a-9550-5a8a4fd46cb2")
-		(property "Reference" "D59"
+		(property "Reference" "D64"
 			(at 149.86 123.19 90)
 			(effects
 				(font
@@ -5637,7 +5635,7 @@
 		(instances
 			(project "yellow_panda"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/daf38869-5fa9-4fde-afdc-b825255e45f2"
-					(reference "D59")
+					(reference "D64")
 					(unit 1)
 				)
 			)
@@ -5668,7 +5666,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiswitch/hotswaps:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 132.08 100.33 0)
 			(effects
 				(font
@@ -5712,7 +5710,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 157.48 41.91 0)
+		(at 144.78 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5720,7 +5718,7 @@
 		(dnp no)
 		(uuid "eeafb773-73fa-451b-89ed-9e83e31fd878")
 		(property "Reference" "SW36"
-			(at 157.48 38.1 0)
+			(at 144.78 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5728,15 +5726,15 @@
 			)
 		)
 		(property "Value" "~"
-			(at 157.48 36.83 0)
+			(at 144.78 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "kiswitch/hotswaps:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
-			(at 157.48 41.91 0)
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
+			(at 144.78 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5745,7 +5743,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 157.48 41.91 0)
+			(at 144.78 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5754,7 +5752,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 157.48 41.91 0)
+			(at 144.78 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5802,7 +5800,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiswitch/hotswaps:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 170.18 60.96 0)
 			(effects
 				(font
@@ -5869,7 +5867,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiswitch/hotswaps:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 144.78 81.28 0)
 			(effects
 				(font
@@ -5921,7 +5919,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4b1581a-4bf7-4224-a78a-13aaa87e4529")
-		(property "Reference" "D55"
+		(property "Reference" "D60"
 			(at 175.26 105.41 90)
 			(effects
 				(font
@@ -5993,7 +5991,7 @@
 		(instances
 			(project "yellow_panda"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/daf38869-5fa9-4fde-afdc-b825255e45f2"
-					(reference "D55")
+					(reference "D60")
 					(unit 1)
 				)
 			)
@@ -6024,7 +6022,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiswitch/hotswaps:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 106.68 81.28 0)
 			(effects
 				(font
@@ -6076,7 +6074,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f88e5838-aa43-40a3-b94a-3255b8e84e19")
-		(property "Reference" "D56"
+		(property "Reference" "D61"
 			(at 111.76 123.19 90)
 			(effects
 				(font
@@ -6148,7 +6146,7 @@
 		(instances
 			(project "yellow_panda"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/daf38869-5fa9-4fde-afdc-b825255e45f2"
-					(reference "D56")
+					(reference "D61")
 					(unit 1)
 				)
 			)
@@ -6179,7 +6177,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiswitch/hotswaps:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 119.38 60.96 0)
 			(effects
 				(font
@@ -6231,7 +6229,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff27ab27-4e6c-4e87-b4c4-de6cfddbbc3b")
-		(property "Reference" "D49"
+		(property "Reference" "D54"
 			(at 175.26 86.36 90)
 			(effects
 				(font
@@ -6303,7 +6301,7 @@
 		(instances
 			(project "yellow_panda"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/daf38869-5fa9-4fde-afdc-b825255e45f2"
-					(reference "D49")
+					(reference "D54")
 					(unit 1)
 				)
 			)
@@ -6311,7 +6309,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 160.02 48.26 90)
+		(at 147.32 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6319,8 +6317,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ffa3e036-21ab-4d6e-8f59-38381adc5746")
-		(property "Reference" "D36"
-			(at 162.56 46.99 90)
+		(property "Reference" "D41"
+			(at 149.86 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6329,7 +6327,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 162.56 49.53 90)
+			(at 149.86 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6338,7 +6336,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 160.02 48.26 0)
+			(at 147.32 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6347,7 +6345,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 48.26 0)
+			(at 147.32 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6356,7 +6354,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 160.02 48.26 0)
+			(at 147.32 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6365,7 +6363,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 160.02 48.26 0)
+			(at 147.32 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6374,7 +6372,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 160.02 48.26 0)
+			(at 147.32 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6391,7 +6389,7 @@
 		(instances
 			(project "yellow_panda"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/daf38869-5fa9-4fde-afdc-b825255e45f2"
-					(reference "D36")
+					(reference "D41")
 					(unit 1)
 				)
 			)
