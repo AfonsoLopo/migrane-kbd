@@ -141,7 +141,7 @@
         "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.4,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -190,7 +190,9 @@
       ],
       "track_widths": [
         0.0,
-        0.1
+        0.1,
+        0.2,
+        0.5
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -492,14 +494,21 @@
         "wire_width": 6
       },
       {
+        "bus_width": 12,
         "clearance": 0.25,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5,
         "via_diameter": 0.5,
-        "via_drill": 0.3
+        "via_drill": 0.3,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -515,6 +524,14 @@
       {
         "netclass": "Power",
         "pattern": "+3.3V"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "VBUSa"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/VBUSb"
       }
     ]
   },
@@ -647,12 +664,16 @@
       "SlaveSwitchMatrix"
     ],
     [
-      "7b6441d4-e7ab-4652-b72a-1bf461c30522",
-      "I2C Devices"
+      "a5f2995b-df9b-4a15-916b-584683aaf277",
+      "Devices"
     ],
     [
       "ed10e978-f70d-4d2a-8c31-51564d8e7b76",
       "STM MCUs"
+    ],
+    [
+      "a02704c0-3a7d-4df4-8314-fd6db2cf3d4e",
+      "LED Sheet"
     ]
   ],
   "text_variables": {}

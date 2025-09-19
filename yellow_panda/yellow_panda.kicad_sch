@@ -1004,43 +1004,36 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:PESD5V0L1UL"
+		(symbol "PCM_JLCPCB-Diodes:TVS-Uni,SMF5.0A"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(hide yes)
+				(offset 0)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at 0 2.54 0)
+				(at 2.032 0.834 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "PESD5V0L1UL"
-				(at 0 -2.54 0)
+			(property "Value" "SMF5.0A"
+				(at 2.032 -1.2122 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 0.8 0.8)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "Diode_SMD:D_SOD-882"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD5V0L1UL.pdf"
-				(at 0 5.08 0)
+			(property "Footprint" "PCM_JLCPCB:D_SOD-123FL"
+				(at -1.778 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1048,16 +1041,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Low capacitance unidirectional ESD protection diode, 5V, SOD-882"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312041000_hongjiacheng-SMF5-0A_C19077497.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1066,7 +1050,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "D*SOD?882"
+			(property "Description" "27.4A 7.3V 200W 6.4V Unidirectional 5V SOD-123FL ESD and Surge Protection (TVS/ESD) ROHS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1075,10 +1059,109 @@
 					(hide yes)
 				)
 			)
-			(symbol "PESD5V0L1UL_0_1"
+			(property "LCSC" "C19077497"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Stock" "158412"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Price" "0.028USD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Process" "SMT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Minimum Qty" "15"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Attrition Qty" "4"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Class" "Preferred Component"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Category" "Circuit Protection,ESD And Surge Protection (TVS/ESD)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "hongjiacheng"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part" "SMF5.0A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TVS-Uni,SMF5.0A_0_1"
 				(polyline
 					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+						(xy -1.905 -1.905) (xy -1.27 -1.27) (xy 1.27 -1.27) (xy 1.905 -0.635)
 					)
 					(stroke
 						(width 0.254)
@@ -1090,7 +1173,202 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy -1.27 1.27) (xy 0 -1.27) (xy 1.27 1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TVS-Uni,SMF5.0A_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Power_Protection:USBLC6-2SC6"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0.635 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "USBLC6-2SC6"
+				(at 0.635 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+				(at 1.27 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
+				(at 1.27 -8.255 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "usb ethernet video"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "USBLC6-2SC6_0_0"
+				(circle
+					(center -1.524 0)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -0.508 2.032)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -0.508 -4.572)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.508 2.032)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.508 -4.572)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.524 -2.54)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "USBLC6-2SC6_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.54 0)
 					)
 					(stroke
 						(width 0)
@@ -1102,10 +1380,143 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+						(xy -2.54 -2.54) (xy 2.54 -2.54)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.508) (xy -1.016 0.508) (xy -1.524 1.524) (xy -2.032 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -3.048) (xy -1.016 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.524) (xy -2.032 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -4.064) (xy -2.032 -4.064) (xy -1.524 -3.048) (xy -1.016 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.143) (xy -0.508 -0.762) (xy 0.508 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -0.508 2.032) (xy 0.508 2.032) (xy 0 1.524) (xy 0 -4.064) (xy -0.508 -4.572) (xy 0.508 -4.572)
+						(xy 0 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -1.778) (xy -0.508 -1.778) (xy 0 -0.762) (xy 0.508 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.524) (xy 2.032 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -3.048) (xy 2.032 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 0.508) (xy 1.016 0.508) (xy 1.524 1.524) (xy 2.032 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -4.064) (xy 1.016 -4.064) (xy 1.524 -3.048) (xy 2.032 -4.064)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1113,11 +1524,46 @@
 					)
 				)
 			)
-			(symbol "PESD5V0L1UL_1_1"
+			(symbol "USBLC6-2SC6_1_1"
+				(rectangle
+					(start -2.54 2.794)
+					(end 2.54 -5.334)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.032) (xy -1.524 2.032) (xy -1.524 -4.572) (xy -0.508 -4.572)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -4.572) (xy 1.524 -4.572) (xy 1.524 2.032) (xy 0.508 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at -3.81 0 0)
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "K"
+					(name "I/O1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1133,9 +1579,45 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
+					(at -5.08 -2.54 0)
 					(length 2.54)
-					(name "A"
+					(name "I/O2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1143,6 +1625,42 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "I/O1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "I/O2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1650,10 +2168,10 @@
 		(uuid "1ea5c1ed-c657-418e-8515-5aa6f30a3327")
 	)
 	(junction
-		(at 111.76 36.83)
+		(at 66.04 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "27946868-d400-42e0-a539-ef00ab81c5a5")
+		(uuid "2cd58e32-e433-4a12-b245-63730c9d1bb5")
 	)
 	(junction
 		(at 193.04 34.29)
@@ -1680,12 +2198,6 @@
 		(uuid "8d9eb285-1e57-42ad-b6f3-db416a41e149")
 	)
 	(junction
-		(at 53.34 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8f7149dd-d0fe-4020-9325-e75df92e5a1d")
-	)
-	(junction
 		(at 236.22 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1698,16 +2210,10 @@
 		(uuid "96840a55-2a5e-4997-9edc-755404b79607")
 	)
 	(junction
-		(at 53.34 49.53)
+		(at 127 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a996722d-5a97-4e98-9d42-8fbacdb81409")
-	)
-	(junction
-		(at 111.76 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e8a593b5-98aa-49a5-a551-6853df6311b7")
+		(uuid "ab479869-1de1-4485-80d6-dc828f74f32d")
 	)
 	(junction
 		(at 26.67 62.23)
@@ -1732,6 +2238,16 @@
 			(type default)
 		)
 		(uuid "0345786b-2f29-47dc-bc79-a6a787938c3f")
+	)
+	(wire
+		(pts
+			(xy 48.26 34.29) (xy 55.88 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04ee48db-cdd3-478d-bd70-dffd0193457d")
 	)
 	(wire
 		(pts
@@ -1785,23 +2301,13 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 36.83) (xy 106.68 36.83)
+			(xy 132.08 39.37) (xy 127 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "31d5e0c4-a6d5-47bf-b65e-2cfdc4b6e536")
-	)
-	(wire
-		(pts
-			(xy 60.96 49.53) (xy 53.34 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3752ca99-1803-4a71-a3a9-a93b430cbde5")
+		(uuid "329b7972-fc2d-470a-b0fa-dfa9141a89a4")
 	)
 	(wire
 		(pts
@@ -1835,17 +2341,17 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 36.83) (xy 53.34 36.83)
+			(xy 106.68 44.45) (xy 116.84 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "45ea86ee-1835-4014-82ee-e2768e64101d")
+		(uuid "45df7ffa-3415-40d1-8a0e-39f5b56748bf")
 	)
 	(wire
 		(pts
-			(xy 106.68 49.53) (xy 106.68 41.91)
+			(xy 106.68 44.45) (xy 106.68 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1862,6 +2368,16 @@
 			(type default)
 		)
 		(uuid "4becaeab-3365-44c6-a0cf-189e65990664")
+	)
+	(wire
+		(pts
+			(xy 45.72 36.83) (xy 48.26 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cbb9c4b-c988-4d70-8759-27ef88e58028")
 	)
 	(wire
 		(pts
@@ -1885,13 +2401,23 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 36.83) (xy 45.72 36.83)
+			(xy 45.72 24.13) (xy 53.34 24.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5aea202d-3285-4d6c-9f2e-97d794fd8c5b")
+		(uuid "5a2a731a-805b-49fc-b956-e5f8f994ca7b")
+	)
+	(wire
+		(pts
+			(xy 111.76 24.13) (xy 106.68 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ef2397d-93a7-47dd-ba2c-57d7e5b0f772")
 	)
 	(wire
 		(pts
@@ -1912,26 +2438,6 @@
 			(type default)
 		)
 		(uuid "6b78e536-6722-43a8-80a9-138fe017ef24")
-	)
-	(wire
-		(pts
-			(xy 45.72 49.53) (xy 45.72 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "773290e9-2140-461a-8685-d17635343cbf")
-	)
-	(wire
-		(pts
-			(xy 45.72 49.53) (xy 53.34 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77f86bce-20d5-454d-8fc9-4ae089fae3fa")
 	)
 	(wire
 		(pts
@@ -1965,6 +2471,26 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 39.37) (xy 66.04 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98f64d5c-3f98-4e72-889a-cf12768da3ed")
+	)
+	(wire
+		(pts
+			(xy 55.88 44.45) (xy 48.26 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99293854-1264-4c2f-be55-d17d5da9fabf")
+	)
+	(wire
+		(pts
 			(xy 193.04 34.29) (xy 208.28 34.29)
 		)
 		(stroke
@@ -1975,13 +2501,23 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 36.83) (xy 111.76 36.83)
+			(xy 66.04 39.37) (xy 63.5 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b8ef8b11-8ffd-4de9-8f4e-75b37aa8d7b2")
+		(uuid "b5df537c-181d-4fef-99c4-bbb88179f098")
+	)
+	(wire
+		(pts
+			(xy 67.31 34.29) (xy 58.42 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bee1ff4e-09f3-4849-b8ba-1f6f8f738a94")
 	)
 	(wire
 		(pts
@@ -2005,13 +2541,23 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 49.53) (xy 111.76 49.53)
+			(xy 106.68 34.29) (xy 116.84 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d41690c6-34f8-49e2-95aa-6d16809c6fed")
+		(uuid "c6dcc540-1852-4599-be66-e1f0da8fd3be")
+	)
+	(wire
+		(pts
+			(xy 48.26 44.45) (xy 45.72 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c82e56f6-d0fd-4324-a17b-fb64c2cb01dc")
 	)
 	(wire
 		(pts
@@ -2022,16 +2568,6 @@
 			(type default)
 		)
 		(uuid "d9aa2277-06f1-4733-ae2d-413c5939128d")
-	)
-	(wire
-		(pts
-			(xy 111.76 49.53) (xy 106.68 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db44bb97-7b93-42ca-be89-5fe2f2dc74ee")
 	)
 	(wire
 		(pts
@@ -2055,6 +2591,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 34.29) (xy 106.68 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee98f4aa-1729-4287-9c20-eb0070723c93")
+	)
+	(wire
+		(pts
 			(xy 179.07 34.29) (xy 179.07 33.02)
 		)
 		(stroke
@@ -2063,9 +2609,83 @@
 		)
 		(uuid "fe19435e-4f07-491a-a5f7-11a24ea60b1d")
 	)
+	(wire
+		(pts
+			(xy 127 39.37) (xy 124.46 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fec3e7c3-230e-402b-8cab-5ad94e3383c7")
+	)
+	(label "VBUSa"
+		(at 46.99 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8d1a962e-5619-4074-9051-bdaf42cc718e")
+	)
+	(label "VBUSb"
+		(at 106.68 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fca1d293-44ab-4fc8-84d7-cc192673aa58")
+	)
+	(global_label "USBDa+"
+		(shape bidirectional)
+		(at 67.31 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4b2ed8d9-a476-4cb8-b619-f552801c5b96")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 79.2079 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USBDa-"
+		(shape bidirectional)
+		(at 58.42 44.45 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a338b1da-a878-4ee8-866c-dab67f467e63")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 58.42 56.3479 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(hierarchical_label "USB_Db+"
 		(shape bidirectional)
-		(at 116.84 36.83 0)
+		(at 119.38 34.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2074,38 +2694,16 @@
 		)
 		(uuid "5a01e8ca-20aa-4c83-a843-575456d4a6b7")
 	)
-	(hierarchical_label "USB_Da-"
-		(shape bidirectional)
-		(at 60.96 49.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "91397884-28e2-4be2-b25c-a22d5afccdbf")
-	)
 	(hierarchical_label "USB_Db-"
 		(shape bidirectional)
-		(at 116.84 49.53 0)
+		(at 119.38 44.45 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "b54c6c65-c41e-4679-80d7-80e08160ff01")
-	)
-	(hierarchical_label "USB_Da+"
-		(shape bidirectional)
-		(at 60.96 36.83 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ee8b6a16-341e-4edb-b678-0d40e84fade2")
 	)
 	(symbol
 		(lib_id "power:+3.3V")
@@ -2311,6 +2909,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Power_Protection:USBLC6-2SC6")
+		(at 119.38 39.37 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "245e7942-2363-422f-8630-08b1decca052")
+		(property "Reference" "U6"
+			(at 118.11 33.274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USBLC6-2SC6"
+			(at 110.998 46.228 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 113.03 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
+			(at 111.125 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
+			(at 119.38 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "f44db734-a22d-401a-a0bd-d86c6040ffb6")
+		)
+		(pin "4"
+			(uuid "3304344d-fac4-4f7c-aee3-e869e5fbdd6a")
+		)
+		(pin "1"
+			(uuid "918b05d5-2677-426a-a38b-2ae4d8d02379")
+		)
+		(pin "2"
+			(uuid "bbcafd9b-4f0e-4efd-8994-2927472e83b3")
+		)
+		(pin "5"
+			(uuid "7579f703-fb68-48fa-ba8e-9683bcfbab57")
+		)
+		(pin "3"
+			(uuid "261e3a93-29c1-4e2d-9729-58f0235503b3")
+		)
+		(instances
+			(project "yellow_panda"
+				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 208.28 29.21 0)
 		(unit 1)
@@ -2380,6 +3060,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 71.12 39.37 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c8ab722-e97b-4273-b4fd-679484d045ea")
+		(property "Reference" "#PWR012"
+			(at 67.31 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 74.93 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 71.12 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef25d41c-968b-43c2-b3d2-08db75647250")
+		)
+		(instances
+			(project ""
+				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 276.86 24.13 270)
 		(unit 1)
@@ -2441,6 +3188,230 @@
 			(project "yellow_panda"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 66.04 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33c9d771-202d-42d7-97b8-b0a8c913d45f")
+		(property "Reference" "#PWR013"
+			(at 66.04 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 66.04 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 66.04 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc3c3a25-842f-4adf-8782-26eef67c45c3")
+		)
+		(instances
+			(project ""
+				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Diodes:TVS-Uni,SMF5.0A")
+		(at 57.15 24.13 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "36ec1c6c-fc51-44ee-bdba-e559f5eac791")
+		(property "Reference" "D2"
+			(at 57.4675 17.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SMF5.0A"
+			(at 57.4675 20.32 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:D_SOD-123FL"
+			(at 57.15 25.908 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312041000_hongjiacheng-SMF5-0A_C19077497.pdf"
+			(at 57.15 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "27.4A 7.3V 200W 6.4V Unidirectional 5V SOD-123FL ESD and Surge Protection (TVS/ESD) ROHS"
+			(at 57.15 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C19077497"
+			(at 57.15 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "158412"
+			(at 57.15 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.028USD"
+			(at 57.15 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 57.15 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "15"
+			(at 57.15 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "4"
+			(at 57.15 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 57.15 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Circuit Protection,ESD And Surge Protection (TVS/ESD)"
+			(at 57.15 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 57.15 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "SMF5.0A"
+			(at 57.15 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72b44430-2f4f-4aa7-9a7c-f430d1146b8c")
+		)
+		(pin "2"
+			(uuid "ed8ee017-afc8-41e6-9483-893e28e9b0f8")
+		)
+		(instances
+			(project ""
+				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -2581,17 +3552,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 106.68 24.13 270)
+		(lib_id "power:GND")
+		(at 127 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "451a434f-59a6-49ed-972e-f774c303759a")
-		(property "Reference" "#PWR02"
-			(at 102.87 24.13 0)
+		(uuid "3f343db0-6b7f-400b-8be2-137b00294c99")
+		(property "Reference" "#PWR041"
+			(at 127 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2599,17 +3570,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 110.49 24.1299 90)
+		(property "Value" "GND"
+			(at 127 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 24.13 0)
+			(at 127 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2618,7 +3588,74 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 24.13 0)
+			(at 127 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 127 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf14575f-fa03-4595-9db6-2f24c6e29eb2")
+		)
+		(instances
+			(project "yellow_panda"
+				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 119.38 24.13 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "451a434f-59a6-49ed-972e-f774c303759a")
+		(property "Reference" "#PWR02"
+			(at 115.57 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 123.19 24.1299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2627,7 +3664,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 106.68 24.13 0)
+			(at 119.38 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2821,6 +3858,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 111.76 39.37 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68f3d718-1330-4eff-82a6-589bc3d75291")
+		(property "Reference" "#PWR042"
+			(at 105.41 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 107.95 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 111.76 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bda7a2c2-df34-48d3-b55f-f34f3cb89fc4")
+		)
+		(instances
+			(project "yellow_panda"
+				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 193.04 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2887,16 +3991,16 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 45.72 24.13 270)
+		(at 132.08 39.37 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8293b9cb-0765-437e-956b-3f593bfe7b9c")
-		(property "Reference" "#PWR01"
-			(at 41.91 24.13 0)
+		(uuid "76c10146-77a6-451c-bfe0-ca8bbc4af379")
+		(property "Reference" "#PWR014"
+			(at 128.27 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2905,7 +4009,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 49.53 24.1299 90)
+			(at 135.89 39.3699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2914,7 +4018,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 24.13 0)
+			(at 132.08 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2923,7 +4027,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 24.13 0)
+			(at 132.08 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2932,7 +4036,74 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 45.72 24.13 0)
+			(at 132.08 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34a9a321-d182-44bd-bdff-3d87f0de48c1")
+		)
+		(instances
+			(project "yellow_panda"
+				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 60.96 24.13 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8293b9cb-0765-437e-956b-3f593bfe7b9c")
+		(property "Reference" "#PWR01"
+			(at 57.15 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 64.77 24.1299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 60.96 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2947,6 +4118,76 @@
 			(project ""
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 66.04 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "832e99fb-39da-4a0a-95ba-a06d28281963")
+		(property "Reference" "C23"
+			(at 69.85 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 69.85 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+			(at 67.0052 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 66.04 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9814ccc9-a007-460c-b92a-eb82be1362ff")
+		)
+		(pin "2"
+			(uuid "205ec8cb-646a-40be-9aa8-4b67367c309d")
+		)
+		(instances
+			(project ""
+				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0"
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -3120,16 +4361,33 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 53.34 44.45 90)
+		(lib_id "PCM_JLCPCB-Diodes:TVS-Uni,SMF5.0A")
+		(at 115.57 24.13 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8a9029ed-82c1-4063-80f4-d15959bbe0fa")
-		(property "Reference" "#PWR011"
-			(at 59.69 44.45 0)
+		(fields_autoplaced yes)
+		(uuid "8b1bd72d-8750-4c3f-b399-e0f822bb0755")
+		(property "Reference" "D3"
+			(at 115.8875 17.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SMF5.0A"
+			(at 115.8875 20.32 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:D_SOD-123FL"
+			(at 115.57 25.908 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3137,17 +4395,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 57.15 44.4499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 44.45 0)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312041000_hongjiacheng-SMF5-0A_C19077497.pdf"
+			(at 115.57 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3155,8 +4404,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 53.34 44.45 0)
+		(property "Description" "27.4A 7.3V 200W 6.4V Unidirectional 5V SOD-123FL ESD and Surge Protection (TVS/ESD) ROHS"
+			(at 115.57 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3164,8 +4413,89 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 44.45 0)
+		(property "LCSC" "C19077497"
+			(at 115.57 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "158412"
+			(at 115.57 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.028USD"
+			(at 115.57 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 115.57 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "15"
+			(at 115.57 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "4"
+			(at 115.57 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 115.57 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Circuit Protection,ESD And Surge Protection (TVS/ESD)"
+			(at 115.57 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 115.57 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "SMF5.0A"
+			(at 115.57 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3174,12 +4504,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "4b4f4e36-5483-4f20-a782-adc08cc9f593")
+			(uuid "3083d860-2624-4d1a-8b99-4310a25c260b")
+		)
+		(pin "2"
+			(uuid "1944ea96-e018-4872-94eb-57ee20e06e3d")
 		)
 		(instances
-			(project ""
+			(project "yellow_panda"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0"
-					(reference "#PWR011")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -3323,43 +4656,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:PESD5V0L1UL")
-		(at 111.76 53.34 90)
+		(lib_id "Device:C")
+		(at 127 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a072d2ff-fcd2-46dc-a51d-0a56b80c61ee")
-		(property "Reference" "D5"
-			(at 106.426 51.308 90)
+		(fields_autoplaced yes)
+		(uuid "a42f659b-b429-4ce5-a6c5-40c006c74018")
+		(property "Reference" "C24"
+			(at 130.81 41.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "5V"
-			(at 113.538 53.34 90)
+		(property "Value" "100nF"
+			(at 130.81 44.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:D_SOT-23"
-			(at 116.84 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD5V0L1UL.pdf"
-			(at 106.68 53.34 0)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+			(at 127.9652 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3367,8 +4692,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low capacitance unidirectional ESD protection diode, 5V, SOD-882"
-			(at 104.14 53.34 0)
+		(property "Datasheet" "~"
+			(at 127 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 127 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3377,81 +4711,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "42d1ec99-4c71-44ab-b0ac-83e09632af01")
+			(uuid "9e55fa2f-4aab-4deb-8f4a-b5675c983cbb")
 		)
 		(pin "2"
-			(uuid "42a5008f-7b1e-49d6-9c8b-89581df4344d")
+			(uuid "23e87701-cca7-44f3-a2e0-252802cb8fc8")
 		)
 		(instances
 			(project "yellow_panda"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 111.76 44.45 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a2ffc036-b513-453d-9cb1-e25ed765c434")
-		(property "Reference" "#PWR012"
-			(at 118.11 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 115.57 44.4499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 111.76 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 111.76 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8d04ffd5-ea2a-49bc-b728-b33e84a0e677")
-		)
-		(instances
-			(project "yellow_panda"
-				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0"
-					(reference "#PWR012")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -3521,75 +4789,6 @@
 			(project "yellow_panda"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:PESD5V0L1UL")
-		(at 53.34 40.64 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b548bd34-3f87-4f65-b7b8-4dcd851da3fc")
-		(property "Reference" "D2"
-			(at 48.006 38.862 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5V"
-			(at 55.372 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:D_SOT-23"
-			(at 58.42 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD5V0L1UL.pdf"
-			(at 48.26 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Low capacitance unidirectional ESD protection diode, 5V, SOD-882"
-			(at 45.72 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fbe82a4d-847c-451a-936a-ab082cc11058")
-		)
-		(pin "2"
-			(uuid "56137ba5-7100-4faf-8cf6-4f7bce687c78")
-		)
-		(instances
-			(project ""
-				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0"
-					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -3730,73 +4929,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 53.34 57.15 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c1a90011-e7b4-47cb-9871-234bdcae6761")
-		(property "Reference" "#PWR013"
-			(at 59.69 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 57.15 57.1499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4b4f4e36-5483-4f20-a782-adc08cc9f594")
-		)
-		(instances
-			(project ""
-				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 179.07 29.21 0)
 		(unit 1)
@@ -3860,75 +4992,6 @@
 			(project "yellow_panda"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:PESD5V0L1UL")
-		(at 53.34 53.34 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cb94992c-1d27-443b-a673-a4cf912c2ec0")
-		(property "Reference" "D4"
-			(at 48.006 51.308 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5V"
-			(at 55.118 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:D_SOT-23"
-			(at 58.42 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD5V0L1UL.pdf"
-			(at 48.26 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Low capacitance unidirectional ESD protection diode, 5V, SOD-882"
-			(at 45.72 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fbe82a4d-847c-451a-936a-ab082cc11059")
-		)
-		(pin "2"
-			(uuid "56137ba5-7100-4faf-8cf6-4f7bce687c79")
-		)
-		(instances
-			(project ""
-				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0"
-					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -4003,16 +5066,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 111.76 57.15 90)
+		(at 50.8 39.37 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d23e3e7f-2558-40f0-9e3b-609c8ed7ca15")
-		(property "Reference" "#PWR014"
-			(at 118.11 57.15 0)
+		(uuid "e9ba6fc1-df75-442e-b9f1-4156fe754315")
+		(property "Reference" "#PWR011"
+			(at 44.45 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4021,7 +5084,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 115.57 57.1499 90)
+			(at 46.99 39.3699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4030,7 +5093,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 57.15 0)
+			(at 50.8 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4039,7 +5102,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 57.15 0)
+			(at 50.8 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4048,7 +5111,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 111.76 57.15 0)
+			(at 50.8 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4057,12 +5120,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "d4f9126d-3d46-40c9-81b0-2de02c416897")
+			(uuid "0f8ceb93-9aab-4317-a41b-3f3f95222d3f")
 		)
 		(instances
-			(project "yellow_panda"
+			(project ""
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0"
-					(reference "#PWR014")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -4136,75 +5199,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:PESD5V0L1UL")
-		(at 111.76 40.64 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f806e3af-69b0-4760-a330-a6aa94e3eb7e")
-		(property "Reference" "D3"
-			(at 106.426 38.862 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5V"
-			(at 113.792 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:D_SOT-23"
-			(at 116.84 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD5V0L1UL.pdf"
-			(at 106.68 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Low capacitance unidirectional ESD protection diode, 5V, SOD-882"
-			(at 104.14 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "db7a4505-616e-422f-8a51-f383d8c1ffd6")
-		)
-		(pin "2"
-			(uuid "81bd7139-78f2-4678-aff0-85b33def01fd")
-		)
-		(instances
-			(project "yellow_panda"
-				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 250.19 34.29 0)
 		(unit 1)
@@ -4270,6 +5264,89 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "Power_Protection:USBLC6-2SC6")
+		(at 58.42 39.37 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff69831d-f9d4-4ffc-9802-bbfecd271ffd")
+		(property "Reference" "U5"
+			(at 69.85 32.9498 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USBLC6-2SC6"
+			(at 69.85 35.4898 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 52.07 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
+			(at 50.165 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
+			(at 58.42 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "e3451c7d-ded9-4a2b-82e9-9b892fbe4796")
+		)
+		(pin "4"
+			(uuid "b54245e7-4b9e-476c-a685-4c031be40bdf")
+		)
+		(pin "1"
+			(uuid "bf83c3c5-90dc-44ff-a186-bd35a36e8953")
+		)
+		(pin "2"
+			(uuid "817ac05f-c776-44a8-8d1c-52b5d1fd8153")
+		)
+		(pin "5"
+			(uuid "2187af5b-0ad2-458a-822f-90637e857bfd")
+		)
+		(pin "3"
+			(uuid "1acb2c3b-4e83-4cc8-9acf-887eeaaafc6f")
+		)
+		(instances
+			(project ""
+				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
 		(at 179.07 130.81)
 		(size 102.87 31.75)
@@ -4313,8 +5390,8 @@
 		)
 	)
 	(sheet
-		(at 179.07 63.5)
-		(size 102.87 22.86)
+		(at 19.05 129.54)
+		(size 153.67 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4327,9 +5404,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "7b6441d4-e7ab-4652-b72a-1bf461c30522")
-		(property "Sheetname" "I2C Devices"
-			(at 179.07 62.7884 0)
+		(uuid "a02704c0-3a7d-4df4-8314-fd6db2cf3d4e")
+		(property "Sheetname" "LED Sheet"
+			(at 19.05 128.8284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4337,8 +5414,50 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "i2c_devices.kicad_sc.kicad_sch"
-			(at 179.07 86.9446 0)
+		(property "Sheetfile" "MasterLed.kicad_sch"
+			(at 19.05 160.6046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "yellow_panda"
+				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 179.07 55.88)
+		(size 62.23 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a5f2995b-df9b-4a15-916b-584683aaf277")
+		(property "Sheetname" "Devices"
+			(at 179.07 55.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "devices.kicad_sc.kicad_sch"
+			(at 179.07 88.2146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
