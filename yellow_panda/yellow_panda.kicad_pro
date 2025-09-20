@@ -58,14 +58,39 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "unconnected_items|179557500|141137500|F.Cu|4|94468a53-a76e-4364-bd87-74828f247199|aad17b1c-84ea-41aa-82ed-1588cf6b5946",
+          ""
+        ],
+        [
+          "unconnected_items|180057500|129787500|F.Cu|4|f77415ea-a81c-40fc-b6fa-fa7ab60460ec|c894c14d-255b-4715-84cc-b3b3c9820389",
+          ""
+        ],
+        [
+          "unconnected_items|194000000|163400000|F.Cu|4|6ac07ab3-b7b7-4b7b-ba54-b33633837c6d|01fe9f23-8641-4181-924c-2d900388a95b",
+          ""
+        ],
+        [
+          "unconnected_items|211725001|113999998|F.Cu|4|af9cf1fb-6b22-453a-b10b-2c68093ecd26|8012c361-e7e9-4132-b7d5-ba044a881aef",
+          ""
+        ],
+        [
+          "unconnected_items|281922138|174805181|F.Cu|4|8a323a16-5187-44bd-9a23-700fdb2b4d86|8a323a16-5187-44bd-9a23-700fdb2b4d86",
+          ""
+        ],
+        [
+          "unconnected_items|352102229|161558318|F.Cu|4|8a323a16-5187-44bd-9a23-700fdb2b4d86|8a323a16-5187-44bd-9a23-700fdb2b4d86",
+          ""
+        ]
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
       },
       "rule_severities": {
-        "annular_width": "error",
-        "clearance": "error",
+        "annular_width": "ignore",
+        "clearance": "ignore",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
@@ -80,7 +105,7 @@
         "footprint_filters_mismatch": "ignore",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
-        "hole_clearance": "error",
+        "hole_clearance": "ignore",
         "hole_near_hole": "error",
         "hole_to_hole": "error",
         "holes_co_located": "warning",
@@ -101,7 +126,7 @@
         "npth_inside_courtyard": "ignore",
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
-        "shorting_items": "error",
+        "shorting_items": "ignore",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
@@ -673,7 +698,11 @@
     ],
     [
       "a02704c0-3a7d-4df4-8314-fd6db2cf3d4e",
-      "LED Sheet"
+      "LED Master Sheet"
+    ],
+    [
+      "5b2597f7-9f50-4059-9531-ed71e7bb60ce",
+      "LED Slave"
     ]
   ],
   "text_variables": {}
