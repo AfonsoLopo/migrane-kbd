@@ -60,27 +60,31 @@
       ],
       "drc_exclusions": [
         [
-          "unconnected_items|179557500|141137500|F.Cu|4|94468a53-a76e-4364-bd87-74828f247199|aad17b1c-84ea-41aa-82ed-1588cf6b5946",
+          "unconnected_items|180057500|129787500|F.Cu|4|c2deb926-1960-4da3-85ba-38f4824dfb73|501a3721-d9b9-468b-a42c-23020d5affa2",
           ""
         ],
         [
-          "unconnected_items|180057500|129787500|F.Cu|4|f77415ea-a81c-40fc-b6fa-fa7ab60460ec|c894c14d-255b-4715-84cc-b3b3c9820389",
+          "unconnected_items|194751000|119551000|F.Cu|4|8012c361-e7e9-4132-b7d5-ba044a881aef|af9cf1fb-6b22-453a-b10b-2c68093ecd26",
           ""
         ],
         [
-          "unconnected_items|194000000|163400000|F.Cu|4|6ac07ab3-b7b7-4b7b-ba54-b33633837c6d|01fe9f23-8641-4181-924c-2d900388a95b",
+          "unconnected_items|206433000|165744440|F.Cu|4|8a323a16-5187-44bd-9a23-700fdb2b4d86|669ab678-58f2-4cbd-8e58-9685ebdaf494",
           ""
         ],
         [
-          "unconnected_items|211725001|113999998|F.Cu|4|af9cf1fb-6b22-453a-b10b-2c68093ecd26|8012c361-e7e9-4132-b7d5-ba044a881aef",
+          "unconnected_items|208800000|164337926|F.Cu|4|c8c482aa-fd3e-434a-843b-f5c13084f64e|6ac07ab3-b7b7-4b7b-ba54-b33633837c6d",
           ""
         ],
         [
-          "unconnected_items|281922138|174805181|F.Cu|4|8a323a16-5187-44bd-9a23-700fdb2b4d86|8a323a16-5187-44bd-9a23-700fdb2b4d86",
+          "unconnected_items|263860815|179438666|F.Cu|4|8a323a16-5187-44bd-9a23-700fdb2b4d86|8a323a16-5187-44bd-9a23-700fdb2b4d86",
           ""
         ],
         [
-          "unconnected_items|352102229|161558318|F.Cu|4|8a323a16-5187-44bd-9a23-700fdb2b4d86|8a323a16-5187-44bd-9a23-700fdb2b4d86",
+          "unconnected_items|337641500|120348699|F.Cu|4|8a323a16-5187-44bd-9a23-700fdb2b4d86|8a323a16-5187-44bd-9a23-700fdb2b4d86",
+          ""
+        ],
+        [
+          "unconnected_items|348766241|163121848|F.Cu|4|8a323a16-5187-44bd-9a23-700fdb2b4d86|8a323a16-5187-44bd-9a23-700fdb2b4d86",
           ""
         ]
       ],
@@ -94,7 +98,7 @@
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "ignore",
         "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
@@ -566,9 +570,9 @@
       "idf": "",
       "netlist": "",
       "plot": "",
-      "pos_files": "",
+      "pos_files": "production/",
       "specctra_dsn": "",
-      "step": "",
+      "step": "yellow_panda.step",
       "svg": "",
       "vrml": ""
     },
@@ -626,12 +630,114 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Attrition Qty",
+          "name": "Attrition Qty",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Category",
+          "name": "Category",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Class",
+          "name": "Class",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Minimum Qty",
+          "name": "Minimum Qty",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part",
+          "name": "Part",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Price",
+          "name": "Price",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Process",
+          "name": "Process",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Stock",
+          "name": "Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },

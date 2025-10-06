@@ -1,5 +1,6 @@
 ﻿Designator,Footprint,Quantity,Value,LCSC Part #
-"_2, ",bf87ff4d-921f-4e46-abc4-457b704bfae1,2,,
+"_6, _4, _3, _2",,4,,
+"_5, ",bf87ff4d-921f-4e46-abc4-457b704bfae1,2,,
 "C1, C10, C13, C2, C3, C4",1206,6,10uF,
 "C11, C12, C19, C20",0402,4,15pF,
 "C14, C15, C16, C17, C18, C21, C22, C23, C24, C26, C27, C29, C30, C5, C6, C7, C8, C9",0201,18,100nF,
