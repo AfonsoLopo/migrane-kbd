@@ -1584,7 +1584,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 106.68 113.03 0)
 			(effects
 				(font
@@ -1611,6 +1611,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 106.68 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C917030"
+			(at 106.68 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C917030"
 			(at 106.68 118.11 0)
 			(effects
 				(font
@@ -1651,7 +1669,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 170.18 76.2 0)
 			(effects
 				(font
@@ -1678,6 +1696,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 170.18 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C917030"
+			(at 170.18 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C917030"
 			(at 170.18 81.28 0)
 			(effects
 				(font
@@ -1720,7 +1756,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 137.16 88.9 90)
 			(effects
 				(font
@@ -1774,6 +1810,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C917030"
+			(at 134.62 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C917030"
+			(at 134.62 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e2aae9db-30cd-444f-8c53-29b0c61e1521")
 		)
@@ -1806,7 +1860,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 157.48 36.83 0)
 			(effects
 				(font
@@ -1833,6 +1887,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 157.48 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C917030"
+			(at 157.48 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C917030"
 			(at 157.48 41.91 0)
 			(effects
 				(font
@@ -1873,7 +1945,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 170.18 113.03 0)
 			(effects
 				(font
@@ -1900,6 +1972,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 170.18 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C917030"
+			(at 170.18 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C917030"
 			(at 170.18 118.11 0)
 			(effects
 				(font
@@ -1942,7 +2032,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 175.26 68.58 90)
 			(effects
 				(font
@@ -1996,6 +2086,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C917030"
+			(at 172.72 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C917030"
+			(at 172.72 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6da8b5fe-cc7c-426b-9ebf-f92aa9b8d8e0")
 		)
@@ -2030,7 +2138,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 111.76 68.58 90)
 			(effects
 				(font
@@ -2084,6 +2192,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C917030"
+			(at 109.22 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C917030"
+			(at 109.22 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2af5612a-4e85-431a-ac0c-9abe13325925")
 		)
@@ -2118,7 +2244,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 124.46 107.95 90)
 			(effects
 				(font
@@ -2172,6 +2298,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C917030"
+			(at 121.92 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C917030"
+			(at 121.92 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7be22165-eb3d-43d3-b41b-bd9376ef55ce")
 		)
@@ -2204,7 +2348,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 132.08 36.83 0)
 			(effects
 				(font
@@ -2231,6 +2375,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 132.08 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C917030"
+			(at 132.08 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C917030"
 			(at 132.08 41.91 0)
 			(effects
 				(font
@@ -2273,7 +2435,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 162.56 125.73 90)
 			(effects
 				(font
@@ -2327,6 +2489,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C917030"
+			(at 160.02 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C917030"
+			(at 160.02 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "196b0d58-6d18-4e49-9847-e2842efc1de0")
 		)
@@ -2359,7 +2539,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 132.08 113.03 0)
 			(effects
 				(font
@@ -2386,6 +2566,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 132.08 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C917030"
+			(at 132.08 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C917030"
 			(at 132.08 118.11 0)
 			(effects
 				(font
@@ -2426,7 +2624,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 170.18 95.25 0)
 			(effects
 				(font
@@ -2453,6 +2651,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 170.18 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C917030"
+			(at 170.18 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C917030"
 			(at 170.18 100.33 0)
 			(effects
 				(font
@@ -2493,7 +2709,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 106.68 130.81 0)
 			(effects
 				(font
@@ -2520,6 +2736,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 106.68 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C917030"
+			(at 106.68 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C917030"
 			(at 106.68 135.89 0)
 			(effects
 				(font
@@ -2562,7 +2796,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 175.26 125.73 90)
 			(effects
 				(font
@@ -2616,6 +2850,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C917030"
+			(at 172.72 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C917030"
+			(at 172.72 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e73b2d23-3373-456e-a519-cbf68fe74616")
 		)
@@ -2650,7 +2902,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 124.46 68.58 90)
 			(effects
 				(font
@@ -2704,6 +2956,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C917030"
+			(at 121.92 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C917030"
+			(at 121.92 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "66475c8f-e143-4197-8dce-b159ed8e3a77")
 		)
@@ -2738,7 +3008,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 111.76 143.51 90)
 			(effects
 				(font
@@ -2792,6 +3062,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C917030"
+			(at 109.22 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C917030"
+			(at 109.22 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3b93a012-70d7-41d2-986f-9374c7d6981b")
 		)
@@ -2824,7 +3112,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 144.78 55.88 0)
 			(effects
 				(font
@@ -2851,6 +3139,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 144.78 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C917030"
+			(at 144.78 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C917030"
 			(at 144.78 60.96 0)
 			(effects
 				(font
@@ -2893,7 +3199,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 111.76 49.53 90)
 			(effects
 				(font
@@ -2947,6 +3253,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C917030"
+			(at 109.22 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C917030"
+			(at 109.22 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "95a94e8f-333f-4df9-856c-6fd810c6a99b")
 		)
@@ -2979,7 +3303,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 144.78 113.03 0)
 			(effects
 				(font
@@ -3006,6 +3330,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 144.78 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C917030"
+			(at 144.78 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C917030"
 			(at 144.78 118.11 0)
 			(effects
 				(font
@@ -3048,7 +3390,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 137.16 125.73 90)
 			(effects
 				(font
@@ -3102,6 +3444,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C917030"
+			(at 134.62 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C917030"
+			(at 134.62 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9501a9f6-8db5-4bb2-905d-816b997165c8")
 		)
@@ -3134,7 +3494,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 132.08 130.81 0)
 			(effects
 				(font
@@ -3161,6 +3521,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 132.08 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C917030"
+			(at 132.08 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C917030"
 			(at 132.08 135.89 0)
 			(effects
 				(font
@@ -3203,7 +3581,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 149.86 88.9 90)
 			(effects
 				(font
@@ -3257,6 +3635,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C917030"
+			(at 147.32 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C917030"
+			(at 147.32 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b9b95283-42a0-4541-8355-5f2980b8e49f")
 		)
@@ -3291,7 +3687,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 124.46 125.73 90)
 			(effects
 				(font
@@ -3345,6 +3741,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C917030"
+			(at 121.92 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C917030"
+			(at 121.92 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2df89c18-53df-4ac1-ba29-43eced5d3084")
 		)
@@ -3377,7 +3791,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 119.38 113.03 0)
 			(effects
 				(font
@@ -3404,6 +3818,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 119.38 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C917030"
+			(at 119.38 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C917030"
 			(at 119.38 118.11 0)
 			(effects
 				(font
@@ -3446,7 +3878,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 137.16 49.53 90)
 			(effects
 				(font
@@ -3500,6 +3932,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C917030"
+			(at 134.62 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C917030"
+			(at 134.62 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6ea92a65-30be-4c6e-b15b-7e9a5ce8074a")
 		)
@@ -3534,7 +3984,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 137.16 143.51 90)
 			(effects
 				(font
@@ -3588,6 +4038,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C917030"
+			(at 134.62 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C917030"
+			(at 134.62 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c6c24240-76db-4128-9cc0-e625c290ee60")
 		)
@@ -3620,7 +4088,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 119.38 130.81 0)
 			(effects
 				(font
@@ -3647,6 +4115,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 119.38 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C917030"
+			(at 119.38 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C917030"
 			(at 119.38 135.89 0)
 			(effects
 				(font
@@ -3689,7 +4175,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 124.46 49.53 90)
 			(effects
 				(font
@@ -3743,6 +4229,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C917030"
+			(at 121.92 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C917030"
+			(at 121.92 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ef687846-7568-49ab-8a18-97ec27074f90")
 		)
@@ -3775,7 +4279,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 132.08 55.88 0)
 			(effects
 				(font
@@ -3802,6 +4306,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 132.08 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C917030"
+			(at 132.08 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C917030"
 			(at 132.08 60.96 0)
 			(effects
 				(font
@@ -3844,7 +4366,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 137.16 107.95 90)
 			(effects
 				(font
@@ -3898,6 +4420,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C917030"
+			(at 134.62 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C917030"
+			(at 134.62 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4bea993e-be3d-4ebd-95f8-724f0b1c5b36")
 		)
@@ -3930,7 +4470,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 157.48 113.03 0)
 			(effects
 				(font
@@ -3957,6 +4497,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 157.48 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C917030"
+			(at 157.48 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C917030"
 			(at 157.48 118.11 0)
 			(effects
 				(font
@@ -3997,7 +4555,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 106.68 95.25 0)
 			(effects
 				(font
@@ -4024,6 +4582,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 106.68 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C917030"
+			(at 106.68 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C917030"
 			(at 106.68 100.33 0)
 			(effects
 				(font
@@ -4066,7 +4642,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 137.16 68.58 90)
 			(effects
 				(font
@@ -4120,6 +4696,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C917030"
+			(at 134.62 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C917030"
+			(at 134.62 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "32b76b6d-5df9-4801-adc4-d82dae7e8f03")
 		)
@@ -4152,7 +4746,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 119.38 36.83 0)
 			(effects
 				(font
@@ -4179,6 +4773,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 119.38 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C917030"
+			(at 119.38 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C917030"
 			(at 119.38 41.91 0)
 			(effects
 				(font
@@ -4221,7 +4833,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 124.46 143.51 90)
 			(effects
 				(font
@@ -4275,6 +4887,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C917030"
+			(at 121.92 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C917030"
+			(at 121.92 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ffa87265-3fb7-4c49-b904-d9079c4e11f5")
 		)
@@ -4309,7 +4939,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 111.76 107.95 90)
 			(effects
 				(font
@@ -4363,6 +4993,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C917030"
+			(at 109.22 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C917030"
+			(at 109.22 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "125b3a82-6e8c-4a42-b176-f8b002850672")
 		)
@@ -4395,7 +5043,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 106.68 36.83 0)
 			(effects
 				(font
@@ -4422,6 +5070,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 106.68 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C917030"
+			(at 106.68 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C917030"
 			(at 106.68 41.91 0)
 			(effects
 				(font
@@ -4462,7 +5128,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 157.48 76.2 0)
 			(effects
 				(font
@@ -4489,6 +5155,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 157.48 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C917030"
+			(at 157.48 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C917030"
 			(at 157.48 81.28 0)
 			(effects
 				(font
@@ -4529,7 +5213,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 157.48 95.25 0)
 			(effects
 				(font
@@ -4556,6 +5240,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 157.48 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C917030"
+			(at 157.48 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C917030"
 			(at 157.48 100.33 0)
 			(effects
 				(font
@@ -4598,7 +5300,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 162.56 107.95 90)
 			(effects
 				(font
@@ -4652,6 +5354,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C917030"
+			(at 160.02 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C917030"
+			(at 160.02 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1e8c9c5d-9679-4e5d-869d-0ec148549695")
 		)
@@ -4686,7 +5406,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 162.56 88.9 90)
 			(effects
 				(font
@@ -4740,6 +5460,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C917030"
+			(at 160.02 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C917030"
+			(at 160.02 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5603c0ab-0bc5-437d-84f8-236bac02ab7d")
 		)
@@ -4772,7 +5510,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 106.68 55.88 0)
 			(effects
 				(font
@@ -4799,6 +5537,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 106.68 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C917030"
+			(at 106.68 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C917030"
 			(at 106.68 60.96 0)
 			(effects
 				(font
@@ -4841,7 +5597,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 124.46 88.9 90)
 			(effects
 				(font
@@ -4895,6 +5651,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C917030"
+			(at 121.92 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C917030"
+			(at 121.92 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c6c5f28f-3932-4bef-869b-7b5e9797395f")
 		)
@@ -4927,7 +5701,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 119.38 76.2 0)
 			(effects
 				(font
@@ -4954,6 +5728,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 119.38 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C917030"
+			(at 119.38 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C917030"
 			(at 119.38 81.28 0)
 			(effects
 				(font
@@ -4994,7 +5786,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 157.48 55.88 0)
 			(effects
 				(font
@@ -5021,6 +5813,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 157.48 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C917030"
+			(at 157.48 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C917030"
 			(at 157.48 60.96 0)
 			(effects
 				(font
@@ -5063,7 +5873,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 162.56 68.58 90)
 			(effects
 				(font
@@ -5117,6 +5927,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C917030"
+			(at 160.02 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C917030"
+			(at 160.02 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "007ba502-fc69-4c0a-b29d-a2ee99562dba")
 		)
@@ -5151,7 +5979,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 162.56 49.53 90)
 			(effects
 				(font
@@ -5205,6 +6033,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C917030"
+			(at 160.02 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C917030"
+			(at 160.02 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b2dd8dc9-f775-4acc-8ff3-44a13e23c7d8")
 		)
@@ -5239,7 +6085,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 149.86 107.95 90)
 			(effects
 				(font
@@ -5293,6 +6139,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C917030"
+			(at 147.32 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C917030"
+			(at 147.32 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e6ec77b2-1216-49e6-b673-db94a7ab9346")
 		)
@@ -5327,7 +6191,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 111.76 88.9 90)
 			(effects
 				(font
@@ -5381,6 +6245,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C917030"
+			(at 109.22 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C917030"
+			(at 109.22 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "592d03f9-3e2a-4952-88a4-e06dcd115fb1")
 		)
@@ -5413,7 +6295,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 132.08 76.2 0)
 			(effects
 				(font
@@ -5440,6 +6322,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 132.08 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C917030"
+			(at 132.08 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C917030"
 			(at 132.08 81.28 0)
 			(effects
 				(font
@@ -5482,7 +6382,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 149.86 68.58 90)
 			(effects
 				(font
@@ -5536,6 +6436,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C917030"
+			(at 147.32 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C917030"
+			(at 147.32 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ad4d0482-3a1e-4e18-8417-3acffccb0237")
 		)
@@ -5568,7 +6486,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 119.38 95.25 0)
 			(effects
 				(font
@@ -5595,6 +6513,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 119.38 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C917030"
+			(at 119.38 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C917030"
 			(at 119.38 100.33 0)
 			(effects
 				(font
@@ -5635,7 +6571,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 144.78 95.25 0)
 			(effects
 				(font
@@ -5662,6 +6598,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 144.78 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C917030"
+			(at 144.78 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C917030"
 			(at 144.78 100.33 0)
 			(effects
 				(font
@@ -5704,7 +6658,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 149.86 125.73 90)
 			(effects
 				(font
@@ -5758,6 +6712,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C917030"
+			(at 147.32 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C917030"
+			(at 147.32 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7ac5c648-15f9-4f80-ab10-8960fb42aa4c")
 		)
@@ -5790,7 +6762,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 132.08 95.25 0)
 			(effects
 				(font
@@ -5817,6 +6789,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 132.08 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C917030"
+			(at 132.08 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C917030"
 			(at 132.08 100.33 0)
 			(effects
 				(font
@@ -5857,7 +6847,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 144.78 36.83 0)
 			(effects
 				(font
@@ -5884,6 +6874,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 144.78 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C917030"
+			(at 144.78 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C917030"
 			(at 144.78 41.91 0)
 			(effects
 				(font
@@ -5924,7 +6932,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 170.18 55.88 0)
 			(effects
 				(font
@@ -5951,6 +6959,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 170.18 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C917030"
+			(at 170.18 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C917030"
 			(at 170.18 60.96 0)
 			(effects
 				(font
@@ -5991,7 +7017,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 144.78 76.2 0)
 			(effects
 				(font
@@ -6018,6 +7044,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 144.78 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C917030"
+			(at 144.78 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C917030"
 			(at 144.78 81.28 0)
 			(effects
 				(font
@@ -6060,7 +7104,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 175.26 107.95 90)
 			(effects
 				(font
@@ -6114,6 +7158,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C917030"
+			(at 172.72 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C917030"
+			(at 172.72 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b7cf32e3-7dad-425b-ac31-0706dd460933")
 		)
@@ -6146,7 +7208,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 106.68 76.2 0)
 			(effects
 				(font
@@ -6173,6 +7235,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 106.68 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C917030"
+			(at 106.68 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C917030"
 			(at 106.68 81.28 0)
 			(effects
 				(font
@@ -6215,7 +7295,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 111.76 125.73 90)
 			(effects
 				(font
@@ -6269,6 +7349,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C917030"
+			(at 109.22 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C917030"
+			(at 109.22 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "10ca821d-5ac2-4966-89d2-5c107433979c")
 		)
@@ -6301,7 +7399,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 119.38 55.88 0)
 			(effects
 				(font
@@ -6328,6 +7426,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 119.38 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C917030"
+			(at 119.38 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C917030"
 			(at 119.38 60.96 0)
 			(effects
 				(font
@@ -6370,7 +7486,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 175.26 88.9 90)
 			(effects
 				(font
@@ -6424,6 +7540,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C917030"
+			(at 172.72 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C917030"
+			(at 172.72 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a64d046d-7c85-4cd0-b855-820af837845f")
 		)
@@ -6458,7 +7592,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1N4148W"
 			(at 149.86 49.53 90)
 			(effects
 				(font
@@ -6505,6 +7639,24 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 147.32 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C917030"
+			(at 147.32 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C917030"
+			(at 147.32 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)

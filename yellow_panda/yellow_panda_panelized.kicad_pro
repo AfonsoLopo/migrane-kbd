@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.254,
-          "height": 0.508,
-          "width": 0.508
+          "drill": 0.0,
+          "height": 0.01,
+          "width": 0.01
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -58,100 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "solder_mask_bridge|210200000|115793700|07edbdb8-d6bc-4918-b7e5-3bc95d0422e7|7d0e1f32-2bb5-43cd-a583-15675b7deebd",
-          ""
-        ],
-        [
-          "solder_mask_bridge|210412600|115793700|bfbdef60-6f3a-4412-8c35-ffa4f0b685cb|a76b83ad-ae1a-47b3-8535-aaaf05a847c1",
-          ""
-        ],
-        [
-          "solder_mask_bridge|210490648|115915651|a76b83ad-ae1a-47b3-8535-aaaf05a847c1|7d0e1f32-2bb5-43cd-a583-15675b7deebd",
-          ""
-        ],
-        [
-          "solder_mask_bridge|210612600|115593700|1dcfb23a-a557-4656-ab36-e0ef0946b4bc|07edbdb8-d6bc-4918-b7e5-3bc95d0422e7",
-          ""
-        ],
-        [
-          "solder_mask_bridge|210612600|115993700|ede1622a-47d8-49f9-85fc-f36b8b7e9ae7|a76b83ad-ae1a-47b3-8535-aaaf05a847c1",
-          ""
-        ],
-        [
-          "solder_mask_bridge|210812600|115793700|565ad76c-6526-482a-8e78-6f71b17833b1|a76b83ad-ae1a-47b3-8535-aaaf05a847c1",
-          ""
-        ],
-        [
-          "solder_mask_bridge|211200000|115006300|565ad76c-6526-482a-8e78-6f71b17833b1|a76b83ad-ae1a-47b3-8535-aaaf05a847c1",
-          ""
-        ],
-        [
-          "solder_mask_bridge|211400000|114575000|07edbdb8-d6bc-4918-b7e5-3bc95d0422e7|f48b3d22-87b4-4634-bed6-6cde96c22449",
-          ""
-        ],
-        [
-          "solder_mask_bridge|211400000|114806300|90708672-7c5a-40ac-9ef9-fd15b126496d|e4f9d8f7-3c40-4bdc-a123-91a0ea5b4cdb",
-          ""
-        ],
-        [
-          "solder_mask_bridge|211400000|115206300|1dcfb23a-a557-4656-ab36-e0ef0946b4bc|07edbdb8-d6bc-4918-b7e5-3bc95d0422e7",
-          ""
-        ],
-        [
-          "solder_mask_bridge|211600000|115006300|dae4ffe3-5c29-441d-a280-92fbe5bf6e47|c2246e09-211e-4468-ab6f-7bf8a5072110",
-          ""
-        ],
-        [
-          "solder_mask_bridge|211987400|115006300|dae4ffe3-5c29-441d-a280-92fbe5bf6e47|c2246e09-211e-4468-ab6f-7bf8a5072110",
-          ""
-        ],
-        [
-          "solder_mask_bridge|212187400|114806300|90708672-7c5a-40ac-9ef9-fd15b126496d|e4f9d8f7-3c40-4bdc-a123-91a0ea5b4cdb",
-          ""
-        ],
-        [
-          "solder_mask_bridge|212187400|115206300|1dcfb23a-a557-4656-ab36-e0ef0946b4bc|07edbdb8-d6bc-4918-b7e5-3bc95d0422e7",
-          ""
-        ],
-        [
-          "solder_mask_bridge|212387400|115006300|22f1adf3-c339-46fb-b9f4-4d1944ea85a6|ee19ae22-b529-4437-8e7e-86de6ce699bd",
-          ""
-        ],
-        [
-          "solder_mask_bridge|212600000|115006300|07edbdb8-d6bc-4918-b7e5-3bc95d0422e7|d239621b-7f9b-48d3-ab36-8f859e11f38a",
-          ""
-        ],
-        [
-          "track_width|217104338|103829825|b48c4a09-4f48-4e7f-a656-131f3a871e5e|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "unconnected_items|194000000|163400000|F.Cu|4|6ac07ab3-b7b7-4b7b-ba54-b33633837c6d|227d6e2f-1fdf-4df9-9418-eb995aa8c2c1",
-          ""
-        ],
-        [
-          "unconnected_items|196382000|165744440|F.Cu|4|669ab678-58f2-4cbd-8e58-9685ebdaf494|8a323a16-5187-44bd-9a23-700fdb2b4d86",
-          ""
-        ],
-        [
-          "unconnected_items|211725001|113999998|F.Cu|4|af9cf1fb-6b22-453a-b10b-2c68093ecd26|8012c361-e7e9-4132-b7d5-ba044a881aef",
-          ""
-        ],
-        [
-          "unconnected_items|256303236|149693713|F.Cu|4|8a323a16-5187-44bd-9a23-700fdb2b4d86|8a323a16-5187-44bd-9a23-700fdb2b4d86",
-          ""
-        ],
-        [
-          "unconnected_items|336107820|114644951|F.Cu|4|8a323a16-5187-44bd-9a23-700fdb2b4d86|8a323a16-5187-44bd-9a23-700fdb2b4d86",
-          ""
-        ],
-        [
-          "unconnected_items|352102229|161558318|F.Cu|4|8a323a16-5187-44bd-9a23-700fdb2b4d86|8a323a16-5187-44bd-9a23-700fdb2b4d86",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -175,7 +82,7 @@
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "ignore",
         "hole_near_hole": "error",
-        "hole_to_hole": "error",
+        "hole_to_hole": "ignore",
         "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
@@ -620,7 +527,7 @@
       },
       {
         "netclass": "Power",
-        "pattern": "VBUSa"
+        "pattern": "/VBUSa"
       },
       {
         "netclass": "Power",
@@ -657,7 +564,7 @@
     },
     "bom_presets": [],
     "bom_settings": {
-      "exclude_dnp": false,
+      "exclude_dnp": true,
       "fields_ordered": [
         {
           "group_by": false,
@@ -675,13 +582,13 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -694,12 +601,120 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Attrition Qty",
+          "name": "Attrition Qty",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Category",
+          "name": "Category",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Class",
+          "name": "Class",
+          "show": false
+        },
+        {
+          "group_by": true,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Minimum Qty",
+          "name": "Minimum Qty",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part",
+          "name": "Part",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Price",
+          "name": "Price",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Process",
+          "name": "Process",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Stock",
+          "name": "Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": true,
+          "label": "LCSC Part",
+          "name": "LCSC Part",
+          "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },

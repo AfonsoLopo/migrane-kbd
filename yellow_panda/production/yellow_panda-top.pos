@@ -1,8 +1,0 @@
-### Footprint positions - created on 2025-09-27T02:51:01+0100 ###
-### Printed by KiCad version 9.0.4
-## Unit = mm, Angle = deg.
-## Side : top
-# Ref     Val       Package                PosX       PosY       Rot  Side
-SW67      SW_Push   SW_TL3330_EWI      170.6075   -96.6000  173.0000  top
-SW68      SW_Push   SW_TL3330_EWI      233.8075   -96.4000  -173.0000  top
-## End

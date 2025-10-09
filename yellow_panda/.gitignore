@@ -1,0 +1,4 @@
+*.stl
+*.csv
+production/
+yellow-panda-backups/
