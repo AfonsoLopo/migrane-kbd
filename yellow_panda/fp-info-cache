@@ -1,4 +1,4 @@
-27786198316225758
+27791478390906478
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -110761,6 +110761,20 @@ KEY-TH_TS365ZJ
 4
 4
 easyeda2kicad
+LED0603-RD
+
+
+0
+2
+2
+easyeda2kicad
+LED0805-R-RD
+
+
+0
+2
+2
+easyeda2kicad
 SON-8_L3.0-W3.0-P0.65-LS3.0-BL-EP
 
 
@@ -110781,6 +110795,13 @@ SW-SMD_G-SWITCH_MK-12C02-G015
 0
 9
 7
+easyeda2kicad
+SW-SMD_GT-TC020B-H035-L05
+
+
+0
+9
+4
 easyeda2kicad
 SW-SMD_MK-12C03-G015
 

@@ -3443,6 +3443,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 137.16 21.59 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1348604b-db07-4735-b78f-6953f75c48a0")
+		(property "Reference" "#PWR0201"
+			(at 143.51 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 140.97 21.5899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 137.16 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b5bee971-3444-4152-9e42-732f40a4bef4")
+		)
+		(instances
+			(project ""
+				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0"
+					(reference "#PWR0201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 236.22 20.32 0)
 		(unit 1)
@@ -7396,6 +7463,48 @@
 			(project "yellow_panda_panelized"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 147.32 100.33)
+		(size 25.4 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3a33ebbc-f55f-464d-8b7a-5cd4b350ae77")
+		(property "Sheetname" "Power LEDs"
+			(at 147.32 99.6184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "powerleds.kicad_sch"
+			(at 147.32 116.1546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "yellow_panda_panelized"
+				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0"
+					(page "8")
 				)
 			)
 		)
