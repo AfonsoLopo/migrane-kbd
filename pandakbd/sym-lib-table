@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "stm32")(type "KiCad")(uri "C:/ortho/kicad_libs/stm32/stm32F446.kicad_sym")(options "")(descr ""))
+  (lib (name "leds")(type "KiCad")(uri "C:/yellow_panda/libs/stm/2025-09-18_16-21-47.kicad_sym")(options "")(descr ""))
+  (lib (name "led")(type "KiCad")(uri "C:/ortho/kicad_libs/stm32/358.kicad_sym")(options "")(descr ""))
+  (lib (name "easyeda2kicad")(type "KiCad")(uri "C:/Users/Afonso Lopo/Documents/KiCad/easyeda2kicad/easyeda2kicad.kicad_sym")(options "")(descr ""))
+)
