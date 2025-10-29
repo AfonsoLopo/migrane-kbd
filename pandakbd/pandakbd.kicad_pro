@@ -58,36 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "unconnected_items|180057500|129787500|F.Cu|4|c2deb926-1960-4da3-85ba-38f4824dfb73|501a3721-d9b9-468b-a42c-23020d5affa2",
-          ""
-        ],
-        [
-          "unconnected_items|194751000|119551000|F.Cu|4|8012c361-e7e9-4132-b7d5-ba044a881aef|af9cf1fb-6b22-453a-b10b-2c68093ecd26",
-          ""
-        ],
-        [
-          "unconnected_items|206433000|165744440|F.Cu|4|8a323a16-5187-44bd-9a23-700fdb2b4d86|669ab678-58f2-4cbd-8e58-9685ebdaf494",
-          ""
-        ],
-        [
-          "unconnected_items|208800000|164337926|F.Cu|4|c8c482aa-fd3e-434a-843b-f5c13084f64e|6ac07ab3-b7b7-4b7b-ba54-b33633837c6d",
-          ""
-        ],
-        [
-          "unconnected_items|263860815|179438666|F.Cu|4|8a323a16-5187-44bd-9a23-700fdb2b4d86|8a323a16-5187-44bd-9a23-700fdb2b4d86",
-          ""
-        ],
-        [
-          "unconnected_items|337641500|120348699|F.Cu|4|8a323a16-5187-44bd-9a23-700fdb2b4d86|8a323a16-5187-44bd-9a23-700fdb2b4d86",
-          ""
-        ],
-        [
-          "unconnected_items|348766241|163121848|F.Cu|4|8a323a16-5187-44bd-9a23-700fdb2b4d86|8a323a16-5187-44bd-9a23-700fdb2b4d86",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -499,7 +470,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "yellow_panda.kicad_pro",
+    "filename": "pandakbd.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -787,28 +758,28 @@
       "Root"
     ],
     [
-      "045d001c-aadb-4000-b926-9ec91ee3bce8",
-      "MasterSwitchMatrix"
-    ],
-    [
-      "daf38869-5fa9-4fde-afdc-b825255e45f2",
+      "b7ca91ec-3d00-4899-beb5-96391ab13283",
       "SlaveSwitchMatrix"
     ],
     [
-      "a5f2995b-df9b-4a15-916b-584683aaf277",
-      "Devices"
+      "15f746c7-5e4f-47a6-8468-51b5a4a1d3d2",
+      "left"
     ],
     [
-      "ed10e978-f70d-4d2a-8c31-51564d8e7b76",
-      "STM MCUs"
+      "554bd37b-3e63-441c-9f3c-9636fd166c21",
+      "right"
     ],
     [
-      "a02704c0-3a7d-4df4-8314-fd6db2cf3d4e",
-      "LED Master Sheet"
+      "eee36fe6-1423-47d5-aea6-f4b9aca71fd5",
+      "MasterLeds"
     ],
     [
-      "5b2597f7-9f50-4059-9531-ed71e7bb60ce",
-      "LED Slave"
+      "34e88b44-b803-4e5a-8283-d19d5b25bdab",
+      "Master Switch Matrix"
+    ],
+    [
+      "fc52ba88-63bc-4dda-af93-8183fd27ae6f",
+      "Slave Led Matrix"
     ]
   ],
   "text_variables": {}
