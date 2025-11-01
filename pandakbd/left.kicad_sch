@@ -9220,13 +9220,12 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 157.48 46.9899 0)
+		(property "Value" "+5V_{master}"
+			(at 154.94 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -10367,7 +10366,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+5V_{master}"
 			(at 59.69 31.7499 90)
 			(effects
 				(font
@@ -12288,7 +12287,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 82.55 58.42 0)
 			(effects
 				(font
