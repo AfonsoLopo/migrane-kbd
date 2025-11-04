@@ -1064,7 +1064,7 @@
 		)
 		(uuid "f9bb0732-2de8-44a2-9dcd-a524583d5f89")
 	)
-	(global_label "LEDsa"
+	(global_label "LEDs^{a}"
 		(shape input)
 		(at 21.59 24.13 180)
 		(fields_autoplaced yes)
@@ -1076,7 +1076,7 @@
 		)
 		(uuid "607f8279-b14c-48fa-85d9-7dd3b5adca16")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 12.9806 24.13 0)
+			(at 13.1596 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
