@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "cb8ad9f7-6747-42da-8d69-a0afd1c8e065")
 	(paper "A4")
+	(title_block
+		(title "Migrane - Master Half")
+		(rev "3.0")
+		(company "Afonso Lopo")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_ST_STDC14"
 			(exclude_from_sim no)
@@ -5091,6 +5096,18 @@
 		(uuid c8bbbe2d-bbf3-4289-a586-cbf338149626)
 	)
 	(rectangle
+		(start 151.13 110.49)
+		(end 166.37 142.24)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ca905aea-da32-4e1b-bcfa-ba1bce05c143)
+	)
+	(rectangle
 		(start 13.97 13.97)
 		(end 120.65 68.58)
 		(stroke
@@ -5121,6 +5138,16 @@
 			)
 		)
 		(uuid "4ebe39ad-b094-4146-bdd4-685a369494cb")
+	)
+	(text "handedness\ncircuit"
+		(exclude_from_sim no)
+		(at 159.004 114.046 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "596ff805-8160-4252-a6bb-81b6ac42635a")
 	)
 	(text "reset switch circuit\n"
 		(exclude_from_sim no)
@@ -6576,6 +6603,28 @@
 			)
 		)
 	)
+	(global_label "Handedness^{a}"
+		(shape input)
+		(at 158.75 132.08 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1b8f91d2-82a2-4f39-a84e-b286bfc7ed88")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 158.75 116.8159 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USART_TX^{a}"
 		(shape bidirectional)
 		(at 201.93 135.89 0)
@@ -7584,6 +7633,28 @@
 		(uuid "cf2eda23-4bac-40b2-9370-12bf960e8e2c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 216.3098 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Handedness^{a}"
+		(shape input)
+		(at 97.79 152.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cf989ee7-9e23-4010-a894-b1ca9b7459e1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.0541 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11068,6 +11139,72 @@
 			(project "pandakbd"
 				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/15f746c7-5e4f-47a6-8468-51b5a4a1d3d2"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 158.75 132.08 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a229dc25-e260-49dc-ad60-3dcaed7364bf")
+		(property "Reference" "#PWR012"
+			(at 158.75 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V_{master}"
+			(at 158.75 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 158.75 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21fe390d-6011-490e-a5c1-9b40f94d415a")
+		)
+		(instances
+			(project ""
+				(path "/4f8ca79b-a6b7-44ba-9756-90741cca88f0/15f746c7-5e4f-47a6-8468-51b5a4a1d3d2"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
