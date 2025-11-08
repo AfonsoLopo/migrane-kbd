@@ -1,0 +1,5 @@
+# CODEOWNERS
+# This file designates code ownership for GitHub’s code review assignment system.
+# In this case, the entire repository is owned by a single user.
+
+* @AfonsoLopo
