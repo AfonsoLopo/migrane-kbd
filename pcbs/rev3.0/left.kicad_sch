@@ -5153,7 +5153,7 @@
 		(uuid "91ac1f95-115d-4266-8f83-d39407505b8e")
 	)
 	(junction
-		(at 167.64 30.48)
+		(at 175.26 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9696c975-d9dd-49b8-a3bc-597f0bfb7dcf")
@@ -5165,7 +5165,7 @@
 		(uuid "9f14d2c8-df0d-461b-88dd-dd4fa32eea99")
 	)
 	(junction
-		(at 154.94 43.18)
+		(at 162.56 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a0bc8e4d-eb4b-42dd-b0ac-e5cac6b779ff")
@@ -5231,7 +5231,7 @@
 		(uuid "faaaeecd-3e6f-46d8-946b-855a0b9cf201")
 	)
 	(junction
-		(at 143.51 30.48)
+		(at 151.13 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ffe51c85-3007-4337-b21a-82bcfa04e163")
@@ -5284,7 +5284,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 30.48) (xy 171.45 30.48)
+			(xy 175.26 39.37) (xy 179.07 39.37)
 		)
 		(stroke
 			(width 0)
@@ -5374,7 +5374,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 21.59) (xy 143.51 30.48)
+			(xy 151.13 30.48) (xy 151.13 39.37)
 		)
 		(stroke
 			(width 0)
@@ -5414,7 +5414,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 30.48) (xy 167.64 21.59)
+			(xy 175.26 39.37) (xy 175.26 30.48)
 		)
 		(stroke
 			(width 0)
@@ -5544,7 +5544,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 43.18) (xy 154.94 43.18)
+			(xy 160.02 52.07) (xy 162.56 52.07)
 		)
 		(stroke
 			(width 0)
@@ -5574,7 +5574,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 30.48) (xy 143.51 30.48)
+			(xy 144.78 39.37) (xy 151.13 39.37)
 		)
 		(stroke
 			(width 0)
@@ -5754,7 +5754,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 45.72) (xy 154.94 43.18)
+			(xy 162.56 54.61) (xy 162.56 52.07)
 		)
 		(stroke
 			(width 0)
@@ -5844,7 +5844,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 43.18) (xy 144.78 43.18)
+			(xy 151.13 52.07) (xy 152.4 52.07)
 		)
 		(stroke
 			(width 0)
@@ -5964,7 +5964,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 30.48) (xy 143.51 43.18)
+			(xy 151.13 39.37) (xy 151.13 52.07)
 		)
 		(stroke
 			(width 0)
@@ -6004,7 +6004,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 21.59) (xy 143.51 21.59)
+			(xy 160.02 30.48) (xy 151.13 30.48)
 		)
 		(stroke
 			(width 0)
@@ -6024,7 +6024,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 21.59) (xy 160.02 21.59)
+			(xy 175.26 30.48) (xy 167.64 30.48)
 		)
 		(stroke
 			(width 0)
@@ -6074,7 +6074,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 30.48) (xy 167.64 30.48)
+			(xy 172.72 39.37) (xy 175.26 39.37)
 		)
 		(stroke
 			(width 0)
@@ -6194,7 +6194,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 43.18) (xy 154.94 40.64)
+			(xy 162.56 52.07) (xy 162.56 49.53)
 		)
 		(stroke
 			(width 0)
@@ -6274,7 +6274,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 30.48) (xy 144.78 30.48)
+			(xy 151.13 39.37) (xy 152.4 39.37)
 		)
 		(stroke
 			(width 0)
@@ -8139,7 +8139,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 171.45 30.48 270)
+		(at 179.07 39.37 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8148,7 +8148,7 @@
 		(fields_autoplaced yes)
 		(uuid "2c3d8013-897c-47f8-adb2-b31a24e2c8c9")
 		(property "Reference" "#PWR03"
-			(at 167.64 30.48 0)
+			(at 175.26 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8157,7 +8157,7 @@
 			)
 		)
 		(property "Value" "+3.3V_{master}"
-			(at 175.26 30.4799 90)
+			(at 182.88 39.3699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8166,7 +8166,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 30.48 0)
+			(at 179.07 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8175,7 +8175,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 30.48 0)
+			(at 179.07 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8184,7 +8184,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 171.45 30.48 0)
+			(at 179.07 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8963,7 +8963,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 156.21 21.59 270)
+		(at 163.83 30.48 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8971,7 +8971,7 @@
 		(dnp no)
 		(uuid "503294f9-4d97-4029-b767-0848a74a6b8c")
 		(property "Reference" "C1"
-			(at 155.194 17.78 90)
+			(at 162.814 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8980,7 +8980,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 155.702 25.4 90)
+			(at 163.322 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8989,7 +8989,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 152.4 22.5552 0)
+			(at 160.02 31.4452 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8998,7 +8998,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 156.21 21.59 0)
+			(at 163.83 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9007,7 +9007,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 156.21 21.59 0)
+			(at 163.83 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9016,7 +9016,7 @@
 			)
 		)
 		(property "LCSC" "C13585"
-			(at 156.21 21.59 0)
+			(at 163.83 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9025,7 +9025,7 @@
 			)
 		)
 		(property "LCSC Part" "C13585"
-			(at 156.21 21.59 0)
+			(at 163.83 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9137,7 +9137,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 154.94 45.72 180)
+		(at 162.56 54.61 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9146,7 +9146,7 @@
 		(fields_autoplaced yes)
 		(uuid "545257ec-d356-4c30-b95a-7649ed3bdebb")
 		(property "Reference" "#PWR09"
-			(at 154.94 41.91 0)
+			(at 162.56 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9155,7 +9155,7 @@
 			)
 		)
 		(property "Value" "+5V_{master}"
-			(at 154.94 50.8 0)
+			(at 162.56 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9163,7 +9163,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 45.72 0)
+			(at 162.56 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9172,7 +9172,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 45.72 0)
+			(at 162.56 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9181,7 +9181,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 154.94 45.72 0)
+			(at 162.56 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11260,7 +11260,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 148.59 43.18 90)
+		(at 156.21 52.07 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11268,7 +11268,7 @@
 		(dnp no)
 		(uuid "afab970e-79f3-48e0-8c43-9a7e4b1de135")
 		(property "Reference" "C2"
-			(at 149.86 39.624 90)
+			(at 157.48 48.514 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11277,7 +11277,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 151.13 47.498 90)
+			(at 158.75 56.388 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11286,7 +11286,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 152.4 42.2148 0)
+			(at 160.02 51.1048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11295,7 +11295,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 148.59 43.18 0)
+			(at 156.21 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11304,7 +11304,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 148.59 43.18 0)
+			(at 156.21 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11313,7 +11313,7 @@
 			)
 		)
 		(property "LCSC" "C13585"
-			(at 148.59 43.18 0)
+			(at 156.21 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11322,7 +11322,7 @@
 			)
 		)
 		(property "LCSC Part" "C13585"
-			(at 148.59 43.18 0)
+			(at 156.21 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11598,7 +11598,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 137.16 30.48 270)
+		(at 144.78 39.37 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11606,7 +11606,7 @@
 		(dnp no)
 		(uuid "c6cd843f-331a-4e69-bb33-25ad4dba5210")
 		(property "Reference" "#PWR02"
-			(at 130.81 30.48 0)
+			(at 138.43 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11615,7 +11615,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 132.334 30.48 0)
+			(at 139.954 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11623,7 +11623,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 30.48 0)
+			(at 144.78 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11632,7 +11632,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 30.48 0)
+			(at 144.78 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11641,7 +11641,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 137.16 30.48 0)
+			(at 144.78 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12657,7 +12657,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_Linear:LT1963AxST-3.3")
-		(at 154.94 33.02 0)
+		(at 162.56 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12665,7 +12665,7 @@
 		(dnp no)
 		(uuid "fe3b5737-36c3-4529-8907-b97df8a96094")
 		(property "Reference" "U1"
-			(at 166.624 35.306 0)
+			(at 174.244 44.196 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12673,7 +12673,7 @@
 			)
 		)
 		(property "Value" "LDI1117"
-			(at 167.386 37.592 0)
+			(at 175.006 46.482 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12681,7 +12681,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 154.94 44.45 0)
+			(at 162.56 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12689,8 +12689,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C6186.pdf"
-			(at 154.94 46.99 0)
+		(property "Datasheet" ""
+			(at 162.56 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12698,8 +12698,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Advanced Monolithic Systems AMS1117-3.3"
-			(at 154.94 33.02 0)
+		(property "Description" ""
+			(at 162.56 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12707,8 +12707,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C6186"
-			(at 154.94 33.02 0)
+		(property "LCSC" ""
+			(at 162.56 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12716,8 +12716,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C6186"
-			(at 154.94 33.02 0)
+		(property "LCSC Part" ""
+			(at 162.56 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
